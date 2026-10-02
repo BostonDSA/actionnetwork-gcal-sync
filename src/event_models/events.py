@@ -326,6 +326,7 @@ class ActionNetworkEvent(Event):
     def description(self):
         return self.lookup('description')
 
+    # TODO: not in the api docs..
     @property
     def host_group(self):
         return self.lookup('action_network:sponsor', 'title')
