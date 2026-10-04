@@ -1,0 +1,35 @@
+[
+    {
+        "id": "event1",
+        "createdTime": "2014-02-18T19:44:49Z",
+        "fields": {
+            "actionnetwork_id": "12c9a105-1ab6-472e-ac04-667c521a5968",
+            "actionnetwork_link": "https://actionnetwork.org/api/v2/events/1",
+            "google_id": "crrffvpejvg89n7n2niqiam1s0",
+            "Event Title": "My first event!",
+            "Description": "Join me at my first event",
+            "Host Group": "Local Testing",
+            "Start Time": "2014-02-21T10:45:00Z",
+            "End Time": "2014-02-21T10:45:00Z",
+            "Location": "Online",
+            "modified": "2014-02-25T16:08:26Z",
+            "removed": true
+        }
+    },
+    {
+        "id": "event2",
+        "createdTime": "2018-02-18T19:44:49Z",
+        "fields": {
+            "actionnetwork_id": "667c521a5968-12c9a105-1ab6-472e-ac04",
+            "actionnetwork_link": "https://actionnetwork.org/api/v2/events/2",
+            "google_id": "aletslon08ug2gvhpcruhlh5qs",
+            "Event Title": "Event numbah 2 baybee",
+            "Description": "We goin' again",
+            "Host Group": "Local Testing",
+            "Start Time": "2019-02-21T10:45:00Z",
+            "End Time": "",
+            "Location": "Boston Public Library, 700 Boylston St., Boston MA, 02116",
+            "modified": "2018-11-12T13:00:00-0500"
+        }
+    }
+]

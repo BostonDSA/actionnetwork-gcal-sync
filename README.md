@@ -48,3 +48,10 @@ Apply changes
 ```bash
 make apply
 ```
+
+## Run tests
+
+Example:
+```bash
+PYTHONPATH=src pytest -s test/event_connectors/test_actionnetwork.py
+```
