@@ -1,0 +1,4114 @@
+{
+  "data": [
+    {
+      "id": 44782,
+      "title": "\"No On 5\" Canvass - Natick Centre",
+      "scope_id": 3061,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "New Member Friendly",
+        "canvass",
+        "Canvasses",
+        "MetroWest"
+      ],
+      "campaign_tags": [
+        "No on 5"
+      ],
+      "event_sessions": [
+        {
+          "id": 133550,
+          "mobilize_event_id": 44782,
+          "start_time": "2026-10-23T14:00:00.000-07:00",
+          "end_time": "2026-10-23T17:00:00.000-07:00",
+          "title": "\"No On 5\" Canvass",
+          "created_at": "2026-10-16T16:44:00.273-07:00",
+          "updated_at": "2026-10-16T16:48:23.116-07:00",
+          "location_name": "Newton Center",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "Centre Street & Beacon Street",
+                "short_name": "Centre St & Beacon St",
+                "types": [
+                  "intersection"
+                ]
+              },
+              {
+                "long_name": "Newton Centre",
+                "short_name": "Newton Centre",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Newton",
+                "short_name": "Newton",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Middlesex County",
+                "short_name": "Middlesex County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02459",
+                "short_name": "02459",
+                "types": [
+                  "postal_code"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.3299966,
+              "lng": -71.1948805
+            },
+            "address_city": "Newton",
+            "full_address": "Centre St & Beacon St, Newton, MA 02459, USA",
+            "address_state": "MA",
+            "address_line_1": "Centre Street & Beacon Street",
+            "address_country": "US",
+            "address_postal_code": "02459"
+          },
+          "lonlat": "POINT (-71.1948805 42.3299966)",
+          "location_address": "Centre St & Beacon St, Newton, MA 02459, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "We will be meeting at the corner of Beacon st. & Centre St. to canvass for the \"No on 5\" campaign. No experience necessary! Come early to support CD4 constituents in their 4-5pm standout for Palestine!",
+          "tags": [
+            "New Member Friendly",
+            "canvass",
+            "Canvasses",
+            "MetroWest",
+            "Electoral Organizing Committee"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [
+            8919176
+          ],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/_KhxnOPpuYxYELtbj2WrD9aOTRHigwLLUexCVVoRm1s",
+          "primary_session_id": 133550,
+          "city_state_label": "Newton, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/no-on-5-canvass-copy",
+      "event_page_id": 39463,
+      "image_url": null,
+      "description": "We will be meeting at the corner of East Central st. &amp; North Main St. to canvass door to door for the \"No on 5\" campaign. Expect to canvass from 5:30 to around 8pm, and wear warm clothes for when the sun goes down. No canvassing experience necessary! Talking points and a brief training will be provided.",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 44782,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-16T16:44:00.261-07:00"
+    },
+    {
+      "id": 43905,
+      "title": "Solidarity Tech office hours",
+      "scope_id": 316,
+      "scope_type": "Organization",
+      "event_type": "virtual",
+      "location_name": null,
+      "location_data": null,
+      "tags": [],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 132126,
+          "mobilize_event_id": 43905,
+          "start_time": "2026-11-02T15:00:00.000-08:00",
+          "end_time": "2026-11-02T16:55:00.000-08:00",
+          "title": "Solidarity Tech office hours",
+          "created_at": "2026-10-15T06:46:56.010-07:00",
+          "updated_at": "2026-10-15T08:40:08.385-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/meeting/register/j7GSTW84S8O7RVGiCanvlg",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": null,
+          "note": "",
+          "tags": [],
+          "zoom_account_id": 419,
+          "zoom_meeting_id": "81187768390",
+          "zoom_meeting_data": {
+            "id": 81187768390,
+            "type": 2,
+            "uuid": "tn1+IKo+TAGdOgLqNW/+gw==",
+            "topic": "Solidarity Tech office hours",
+            "status": "waiting",
+            "host_id": "seMiINYmTnikKKlyuH4P1g",
+            "duration": 120,
+            "join_url": "https://us02web.zoom.us/j/81187768390?pwd=XdjQL2RKGO0usBYXxbC4b9X80bPKaP.1",
+            "password": "825303",
+            "settings": {
+              "audio": "both",
+              "use_pmi": false,
+              "jbh_time": 0,
+              "resources": [],
+              "watermark": false,
+              "cn_meeting": false,
+              "focus_mode": false,
+              "host_video": false,
+              "in_meeting": false,
+              "waiting_room": false,
+              "approval_type": 0,
+              "breakout_room": {
+                "enable": false
+              },
+              "enforce_login": false,
+              "auto_recording": "none",
+              "device_testing": false,
+              "show_join_info": true,
+              "encryption_type": "enhanced_encryption",
+              "mute_upon_entry": true,
+              "private_meeting": false,
+              "internal_meeting": false,
+              "join_before_host": true,
+              "meeting_invitees": [],
+              "alternative_hosts": "",
+              "participant_video": false,
+              "show_share_button": true,
+              "close_registration": false,
+              "email_notification": true,
+              "summary_template_id": "1e1356ad",
+              "enforce_login_domains": "",
+              "host_save_video_order": false,
+              "allow_multiple_devices": true,
+              "global_dial_in_numbers": [
+                {
+                  "city": "Houston",
+                  "type": "toll",
+                  "number": "+1 346 248 7799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 669 444 9171",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "San Jose",
+                  "type": "toll",
+                  "number": "+1 669 900 6833",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 719 359 4580",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 253 205 0468",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Tacoma",
+                  "type": "toll",
+                  "number": "+1 253 215 8782",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "New York",
+                  "type": "toll",
+                  "number": "+1 646 558 8656",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 646 931 3860",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 689 278 1000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Washington DC",
+                  "type": "toll",
+                  "number": "+1 301 715 8592",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 305 224 1968",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 309 205 3325",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Chicago",
+                  "type": "toll",
+                  "number": "+1 312 626 6799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 360 209 5623",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 386 347 5053",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 507 473 4847",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 564 217 2000",
+                  "country": "US",
+                  "country_name": "US"
+                }
+              ],
+              "meeting_authentication": false,
+              "prevent_screen_capture": false,
+              "continuous_meeting_chat": {
+                "enable": true,
+                "channel_id": "web_sch_a138c0808eb34860a9406a7720c8a1fb",
+                "auto_add_meeting_participants": false,
+                "auto_add_invited_external_users": false
+              },
+              "push_change_to_calendar": false,
+              "email_in_attendee_report": false,
+              "global_dial_in_countries": [
+                "US"
+              ],
+              "disable_recording_control": "none",
+              "auto_start_meeting_summary": false,
+              "participant_focused_meeting": false,
+              "sign_language_interpretation": {
+                "enable": false
+              },
+              "alternative_host_update_polls": false,
+              "registrants_confirmation_email": true,
+              "registrants_email_notification": false,
+              "auto_start_ai_companion_questions": false,
+              "alternative_hosts_email_notification": true,
+              "auto_add_recording_to_video_management": {
+                "enable": false
+              },
+              "alternative_host_manage_cloud_recording": true,
+              "alternative_host_manage_meeting_summary": true,
+              "approved_or_denied_countries_or_regions": {
+                "enable": false
+              },
+              "allow_host_control_participant_mute_state": false,
+              "request_permission_to_unmute_participants": false
+            },
+            "timezone": "America/New_York",
+            "start_url": "https://us02web.zoom.us/s/81187768390?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMiIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJ3ZWIiLCJjbHQiOjAsIm1udW0iOiI4MTE4Nzc2ODM5MCIsImF1ZCI6ImNsaWVudHNtIiwidWlkIjoic2VNaUlOWW1UbmlrS0tseXVINFAxZyIsInppZCI6Ijg3NmE3Njg4MGQ4ODRjZTU4ODljNWU2MGQzMDQ0NWNhIiwic2siOiI0ODQyMjE0MjA3ODI5MTEwNDMyIiwic3R5IjoxMDAsIndjZCI6InVzMDIiLCJleHAiOjE3OTIwNzkyMTYsImlhdCI6MTc5MjA3MjAxNiwiYWlkIjoiVWNuNW84VHdRYkNyVVFpMzFpV0laZyIsImNpZCI6IiJ9.eR-BghZSAjh7nWZXiSuHhScoZPaRfIOBgcNi2_gJaVo",
+            "created_at": "2026-10-15T13:46:56Z",
+            "host_email": "info@bostondsa.org",
+            "start_time": "2026-11-17T23:00:00Z",
+            "pre_schedule": false,
+            "chat_join_url": "https://us02web.zoom.us/launch/jc/81187768390",
+            "h323_password": "825303",
+            "pstn_password": "825303",
+            "creation_source": "open_api",
+            "registration_url": "https://us02web.zoom.us/meeting/register/j7GSTW84S8O7RVGiCanvlg",
+            "encrypted_password": "XdjQL2RKGO0usBYXxbC4b9X80bPKaP.1"
+          },
+          "zoom_join_before_host": true,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/RuX57zSoL8eyNVDtS0t-5zkWiJ9mlzVeqBNKid53g20",
+          "primary_session_id": 132126,
+          "city_state_label": null
+        },
+        {
+          "id": 132125,
+          "mobilize_event_id": 43905,
+          "start_time": "2026-10-26T15:00:00.000-07:00",
+          "end_time": "2026-10-26T16:00:00.000-07:00",
+          "title": "Solidarity Tech office hours",
+          "created_at": "2026-10-15T06:43:29.266-07:00",
+          "updated_at": "2026-10-15T08:36:18.059-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/meeting/register/5KE-X7YQQBypPPzn9Kxs4g",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": null,
+          "note": "",
+          "tags": [],
+          "zoom_account_id": 419,
+          "zoom_meeting_id": "84250192180",
+          "zoom_meeting_data": {
+            "id": 84250192180,
+            "type": 2,
+            "uuid": "Tsqb/+BrSh2GRjUglkC52w==",
+            "topic": "Solidarity Tech office hours",
+            "status": "waiting",
+            "host_id": "seMiINYmTnikKKlyuH4P1g",
+            "duration": 120,
+            "join_url": "https://us02web.zoom.us/j/84250192180?pwd=sEKyQIbOW8981a7XWVt91zrjQFay49.1",
+            "password": "225003",
+            "settings": {
+              "audio": "both",
+              "use_pmi": false,
+              "jbh_time": 0,
+              "resources": [],
+              "watermark": false,
+              "cn_meeting": false,
+              "focus_mode": false,
+              "host_video": false,
+              "in_meeting": false,
+              "waiting_room": false,
+              "approval_type": 0,
+              "breakout_room": {
+                "enable": false
+              },
+              "enforce_login": false,
+              "auto_recording": "none",
+              "device_testing": false,
+              "show_join_info": true,
+              "encryption_type": "enhanced_encryption",
+              "mute_upon_entry": true,
+              "private_meeting": false,
+              "internal_meeting": false,
+              "join_before_host": true,
+              "meeting_invitees": [],
+              "alternative_hosts": "",
+              "participant_video": false,
+              "show_share_button": true,
+              "close_registration": false,
+              "email_notification": true,
+              "summary_template_id": "1e1356ad",
+              "enforce_login_domains": "",
+              "host_save_video_order": false,
+              "allow_multiple_devices": true,
+              "global_dial_in_numbers": [
+                {
+                  "city": "Houston",
+                  "type": "toll",
+                  "number": "+1 346 248 7799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 669 444 9171",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "San Jose",
+                  "type": "toll",
+                  "number": "+1 669 900 6833",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 719 359 4580",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 253 205 0468",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Tacoma",
+                  "type": "toll",
+                  "number": "+1 253 215 8782",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Washington DC",
+                  "type": "toll",
+                  "number": "+1 301 715 8592",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 305 224 1968",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 309 205 3325",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Chicago",
+                  "type": "toll",
+                  "number": "+1 312 626 6799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 360 209 5623",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 386 347 5053",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 507 473 4847",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 564 217 2000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "New York",
+                  "type": "toll",
+                  "number": "+1 646 558 8656",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 646 931 3860",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 689 278 1000",
+                  "country": "US",
+                  "country_name": "US"
+                }
+              ],
+              "meeting_authentication": false,
+              "prevent_screen_capture": false,
+              "continuous_meeting_chat": {
+                "enable": true,
+                "channel_id": "web_sch_6f3b5a56c6f145f2ad3aef6c9264151b",
+                "auto_add_meeting_participants": false,
+                "auto_add_invited_external_users": false
+              },
+              "push_change_to_calendar": false,
+              "email_in_attendee_report": false,
+              "global_dial_in_countries": [
+                "US"
+              ],
+              "disable_recording_control": "none",
+              "auto_start_meeting_summary": false,
+              "participant_focused_meeting": false,
+              "sign_language_interpretation": {
+                "enable": false
+              },
+              "alternative_host_update_polls": false,
+              "registrants_confirmation_email": true,
+              "registrants_email_notification": false,
+              "auto_start_ai_companion_questions": false,
+              "alternative_hosts_email_notification": true,
+              "auto_add_recording_to_video_management": {
+                "enable": false
+              },
+              "alternative_host_manage_cloud_recording": true,
+              "alternative_host_manage_meeting_summary": true,
+              "approved_or_denied_countries_or_regions": {
+                "enable": false
+              },
+              "allow_host_control_participant_mute_state": false,
+              "request_permission_to_unmute_participants": false
+            },
+            "timezone": "America/New_York",
+            "start_url": "https://us02web.zoom.us/s/84250192180?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMiIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJ3ZWIiLCJjbHQiOjAsIm1udW0iOiI4NDI1MDE5MjE4MCIsImF1ZCI6ImNsaWVudHNtIiwidWlkIjoic2VNaUlOWW1UbmlrS0tseXVINFAxZyIsInppZCI6IjM4MmQyY2E3ZWM5ZDQyZmM4MTQ3MTIwZWNiYTQ5ZGU3Iiwic2siOiI0ODQyMjE0MjA3ODI5MTEwNDMyIiwic3R5IjoxMDAsIndjZCI6InVzMDIiLCJleHAiOjE3OTIwNzkwMDksImlhdCI6MTc5MjA3MTgwOSwiYWlkIjoiVWNuNW84VHdRYkNyVVFpMzFpV0laZyIsImNpZCI6IiJ9.TV2JfTVDCsLqOcZXvoHfOgkRV17MQCWocURG-szem14",
+            "created_at": "2026-10-15T13:43:29Z",
+            "host_email": "info@bostondsa.org",
+            "start_time": "2026-10-27T22:00:00Z",
+            "pre_schedule": false,
+            "chat_join_url": "https://us02web.zoom.us/launch/jc/84250192180",
+            "h323_password": "225003",
+            "pstn_password": "225003",
+            "creation_source": "open_api",
+            "registration_url": "https://us02web.zoom.us/meeting/register/5KE-X7YQQBypPPzn9Kxs4g",
+            "encrypted_password": "sEKyQIbOW8981a7XWVt91zrjQFay49.1"
+          },
+          "zoom_join_before_host": true,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/7X4XRkhce04wGm26wY_UbUMc92Ru3ay5WXAvSEkiDK8",
+          "primary_session_id": 132125,
+          "city_state_label": null
+        },
+        {
+          "id": 132124,
+          "mobilize_event_id": 43905,
+          "start_time": "2026-10-22T15:00:00.000-07:00",
+          "end_time": "2026-10-22T17:00:00.000-07:00",
+          "title": "Solidarity Tech office hours",
+          "created_at": "2026-10-15T06:37:02.659-07:00",
+          "updated_at": "2026-10-15T08:34:15.334-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/meeting/register/H5UHrssKTxOzCVg_tK-keg",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [],
+          "zoom_account_id": 419,
+          "zoom_meeting_id": "86720033879",
+          "zoom_meeting_data": {
+            "id": 86720033879,
+            "type": 2,
+            "uuid": "gNHaHUAUT+60VzSXYBrOoA==",
+            "topic": "Solidarity Tech office hours",
+            "status": "waiting",
+            "host_id": "seMiINYmTnikKKlyuH4P1g",
+            "duration": 120,
+            "join_url": "https://us02web.zoom.us/j/86720033879?pwd=jaKwGgUGYEyQCjvkbPX8jOdcYKRoTN.1",
+            "password": "024174",
+            "settings": {
+              "audio": "both",
+              "use_pmi": false,
+              "jbh_time": 0,
+              "resources": [],
+              "watermark": false,
+              "cn_meeting": false,
+              "focus_mode": false,
+              "host_video": false,
+              "in_meeting": false,
+              "waiting_room": false,
+              "approval_type": 0,
+              "breakout_room": {
+                "enable": false
+              },
+              "enforce_login": false,
+              "auto_recording": "none",
+              "device_testing": false,
+              "show_join_info": true,
+              "encryption_type": "enhanced_encryption",
+              "mute_upon_entry": true,
+              "private_meeting": false,
+              "internal_meeting": false,
+              "join_before_host": true,
+              "meeting_invitees": [],
+              "alternative_hosts": "",
+              "participant_video": false,
+              "show_share_button": true,
+              "close_registration": false,
+              "email_notification": true,
+              "summary_template_id": "1e1356ad",
+              "enforce_login_domains": "",
+              "host_save_video_order": false,
+              "allow_multiple_devices": true,
+              "global_dial_in_numbers": [
+                {
+                  "city": "Tacoma",
+                  "type": "toll",
+                  "number": "+1 253 215 8782",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Houston",
+                  "type": "toll",
+                  "number": "+1 346 248 7799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 669 444 9171",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "San Jose",
+                  "type": "toll",
+                  "number": "+1 669 900 6833",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 719 359 4580",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 253 205 0468",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 386 347 5053",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 507 473 4847",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 564 217 2000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "New York",
+                  "type": "toll",
+                  "number": "+1 646 558 8656",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 646 931 3860",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 689 278 1000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Washington DC",
+                  "type": "toll",
+                  "number": "+1 301 715 8592",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 305 224 1968",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 309 205 3325",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Chicago",
+                  "type": "toll",
+                  "number": "+1 312 626 6799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 360 209 5623",
+                  "country": "US",
+                  "country_name": "US"
+                }
+              ],
+              "meeting_authentication": false,
+              "prevent_screen_capture": false,
+              "continuous_meeting_chat": {
+                "enable": true,
+                "channel_id": "web_sch_4cf9f0bdb25b42288855525837c1dcb3",
+                "auto_add_meeting_participants": false,
+                "auto_add_invited_external_users": false
+              },
+              "push_change_to_calendar": false,
+              "email_in_attendee_report": false,
+              "global_dial_in_countries": [
+                "US"
+              ],
+              "disable_recording_control": "none",
+              "auto_start_meeting_summary": false,
+              "participant_focused_meeting": false,
+              "sign_language_interpretation": {
+                "enable": false
+              },
+              "alternative_host_update_polls": false,
+              "registrants_confirmation_email": true,
+              "registrants_email_notification": false,
+              "auto_start_ai_companion_questions": false,
+              "alternative_hosts_email_notification": true,
+              "auto_add_recording_to_video_management": {
+                "enable": false
+              },
+              "alternative_host_manage_cloud_recording": true,
+              "alternative_host_manage_meeting_summary": true,
+              "approved_or_denied_countries_or_regions": {
+                "enable": false
+              },
+              "allow_host_control_participant_mute_state": false,
+              "request_permission_to_unmute_participants": false
+            },
+            "timezone": "America/New_York",
+            "start_url": "https://us02web.zoom.us/s/86720033879?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMiIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJ3ZWIiLCJjbHQiOjAsIm1udW0iOiI4NjcyMDAzMzg3OSIsImF1ZCI6ImNsaWVudHNtIiwidWlkIjoic2VNaUlOWW1UbmlrS0tseXVINFAxZyIsInppZCI6IjA3NWNmY2UzOTJmYjRlOTc4YjQwMjA5OWNhYTExMDRkIiwic2siOiI0ODQyMjE0MjA3ODI5MTEwNDMyIiwic3R5IjoxMDAsIndjZCI6InVzMDIiLCJleHAiOjE3OTIwNzg2MjMsImlhdCI6MTc5MjA3MTQyMywiYWlkIjoiVWNuNW84VHdRYkNyVVFpMzFpV0laZyIsImNpZCI6IiJ9.3RiwYP9MjTZHJ0d9112FOi86EX7ZVyYlZ-iCE-DYegU",
+            "created_at": "2026-10-15T13:37:03Z",
+            "host_email": "info@bostondsa.org",
+            "start_time": "2026-10-20T22:00:00Z",
+            "pre_schedule": false,
+            "chat_join_url": "https://us02web.zoom.us/launch/jc/86720033879",
+            "h323_password": "024174",
+            "pstn_password": "024174",
+            "creation_source": "open_api",
+            "registration_url": "https://us02web.zoom.us/meeting/register/H5UHrssKTxOzCVg_tK-keg",
+            "encrypted_password": "jaKwGgUGYEyQCjvkbPX8jOdcYKRoTN.1"
+          },
+          "zoom_join_before_host": true,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/2aU4ROfaQ7Nv8T3c55Bvd0WpeaWkrmlYk8aU2EDS26c",
+          "primary_session_id": 132124,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/solidarity-tech-office-hours-2",
+      "event_page_id": 39087,
+      "image_url": null,
+      "description": "Is your Neighborhood Group or Working Group  migrating from Action Network to Solidarity Tech? (Whether you know it or not, the answer is \"yes\".)\nThere are some helpful resources online:\n\nsome short \"how-to\" videos specific to Boston DSA\nthe ST docs\n\nBut if you have questions, technical issues, or just want to chat about ST, come to this meeting!",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 43905,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-15T06:37:02.630-07:00"
+    },
+    {
+      "id": 43882,
+      "title": "South Shore Halloween Party",
+      "scope_id": 2169,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 132107,
+          "mobilize_event_id": 43882,
+          "start_time": "2026-10-25T12:00:00.000-07:00",
+          "end_time": "2026-10-25T14:00:00.000-07:00",
+          "title": "South Shore Halloween Party",
+          "created_at": "2026-10-14T23:08:09.010-07:00",
+          "updated_at": "2026-10-14T23:08:09.028-07:00",
+          "location_name": "Panethnic Pourovers",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "186",
+                "short_name": "186",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "West Squantum Street",
+                "short_name": "W Squantum St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Quincy",
+                "short_name": "Quincy",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Norfolk County",
+                "short_name": "Norfolk County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02171",
+                "short_name": "02171",
+                "types": [
+                  "postal_code"
+                ]
+              },
+              {
+                "long_name": "2549",
+                "short_name": "2549",
+                "types": [
+                  "postal_code_suffix"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.2705285,
+              "lng": -71.0329603
+            },
+            "address_city": "Quincy",
+            "full_address": "186 W Squantum St, Quincy, MA 02171, USA",
+            "address_state": "MA",
+            "address_line_1": "186 West Squantum Street",
+            "address_country": "US",
+            "address_postal_code": "02171"
+          },
+          "lonlat": "POINT (-71.0329603 42.2705285)",
+          "location_address": "186 W Squantum St, Quincy, MA 02171, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/fCOOSa4cADSNKOpSLGnfO2uecVc2t-FyccnfrmTn-90",
+          "primary_session_id": 132107,
+          "city_state_label": "Quincy, MA"
+        }
+      ],
+      "event_page_url": "https://democratic-socialists-of-america.solidarity.tech/south-shore-halloween-party",
+      "event_page_id": 39071,
+      "image_url": null,
+      "description": "Its Spooky Season, and what is scarier to the 1% than SOCIALISM!?!?! \nCome take a break and celebrate the season with some comrades. We'll have pumpkin painting, board games, and FOOD!\nWe'll also be using the opportunity to donate to Foods not bombs. So, bring some money or some warm socks to donate and show some love.\n ",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 43882,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-14T23:08:08.965-07:00"
+    },
+    {
+      "id": 43859,
+      "title": "No Kings: Vote Early (Natick)",
+      "scope_id": 3061,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "New Member Friendly",
+        "Electoral",
+        "Membership"
+      ],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 132089,
+          "mobilize_event_id": 43859,
+          "start_time": "2026-10-17T08:00:00.000-07:00",
+          "end_time": "2026-10-17T09:30:00.000-07:00",
+          "title": "No Kings: Vote Early (Natick)",
+          "created_at": "2026-10-14T20:19:32.497-07:00",
+          "updated_at": "2026-10-15T16:26:51.523-07:00",
+          "location_name": "Natick Common",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "12",
+                "short_name": "12",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "South Main Street",
+                "short_name": "S Main St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Natick",
+                "short_name": "Natick",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Middlesex County",
+                "short_name": "Middlesex County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "01760",
+                "short_name": "01760",
+                "types": [
+                  "postal_code"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.283341,
+              "lng": -71.346778
+            },
+            "address_city": "Natick",
+            "full_address": "12 S Main St, Natick, MA 01760, USA",
+            "address_state": "MA",
+            "address_line_1": "12 South Main Street",
+            "address_country": "US",
+            "address_postal_code": "01760"
+          },
+          "lonlat": "POINT (-71.346778 42.283341)",
+          "location_address": "12 S Main St, Natick, MA 01760, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "New Member Friendly",
+            "Electoral",
+            "Membership",
+            "MetroWest"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/VyZhNto15biC8yDEwTbblLaQpxNT02LK2Plx-jZ_vi8",
+          "primary_session_id": 132089,
+          "city_state_label": "Natick, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/no-kings-protest-natick",
+      "event_page_id": 39055,
+      "image_url": "https://s3.amazonaws.com/solidarity.tech/image_uploads/images/000/065/164/original/RackMultipart20261015-189-cotcoq.png?1792034476",
+      "description": "No Kings rally at Natick Centre where Metrowest DSA will attend to street canvass and contact individuals interested in the DSA and the \"No\" on Question 5 campaign. New members are encouraged to participate; the Natick Farmers' market will be happening in the same space.",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 43859,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-14T20:19:32.466-07:00"
+    },
+    {
+      "id": 43841,
+      "title": "November South Shore DSA Monthly Meeting",
+      "scope_id": 2169,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "South Shore"
+      ],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 132047,
+          "mobilize_event_id": 43841,
+          "start_time": "2026-11-19T16:00:00.000-08:00",
+          "end_time": "2026-11-19T17:30:00.000-08:00",
+          "title": "November South Shore DSA Monthly Meeting",
+          "created_at": "2026-10-14T18:16:52.220-07:00",
+          "updated_at": "2026-10-14T18:16:52.269-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/j/89445147491?pwd=cd2CFiHWR0xgMvLIJEzZz7NhD086aC.1",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": 132046,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/L64w64jvYrpyGDz4D3N5ze0MZ6lJSKgQw60skehn4KE",
+          "primary_session_id": 132047,
+          "city_state_label": null
+        },
+        {
+          "id": 132046,
+          "mobilize_event_id": 43841,
+          "start_time": "2026-11-19T16:00:00.000-08:00",
+          "end_time": "2026-11-19T17:30:00.000-08:00",
+          "title": "November South Shore DSA Monthly Meeting",
+          "created_at": "2026-10-14T18:16:52.197-07:00",
+          "updated_at": "2026-10-14T18:16:52.250-07:00",
+          "location_name": " Thomas Crane Library, Community Room, bottom floor",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "40",
+                "short_name": "40",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Washington Street",
+                "short_name": "Washington St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Quincy",
+                "short_name": "Quincy",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Norfolk County",
+                "short_name": "Norfolk County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02169",
+                "short_name": "02169",
+                "types": [
+                  "postal_code"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.2514177,
+              "lng": -71.0006987
+            },
+            "address_city": "Quincy",
+            "full_address": "40 Washington St, Quincy, MA 02169, USA",
+            "address_state": "MA",
+            "address_line_1": "40 Washington Street",
+            "address_country": "US",
+            "address_postal_code": "02169"
+          },
+          "lonlat": "POINT (-71.0006987 42.2514177)",
+          "location_address": "40 Washington St, Quincy, MA 02169, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": 132047,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/4Dgw1LNPDOWiNseNpw7qm4R0j4LdKMWbiE-WGNJtLuA",
+          "primary_session_id": 132046,
+          "city_state_label": "Quincy, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/november-south-shore-dsa-monthly-meeting",
+      "event_page_id": 39044,
+      "image_url": "https://s3.amazonaws.com/solidarity.tech/image_uploads/images/000/065/149/original/RackMultipart20261015-220-t1upvv.png?1792027749",
+      "description": "Join us this month at Thursday, November 19, 7:00pm for the general meeting of South Shore Democratic Socialists of America.\nWe are meeting this month at Thomas Crane Library in Quincy Center, in Community Room in the bottom floor..  We will have a laptop and mic set up to include those on Zoom.\nWe will spend some time discussing the results of the November 2026 midterm elections and how that impacts us locally.. Agenda otherwise TBD.\nZoom link: https://us02web.zoom.us/j/89445147491?pwd=cd2CFiHWR0xgMvLIJEzZz7NhD086aC.1",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 43841,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-14T18:16:52.168-07:00"
+    },
+    {
+      "id": 42948,
+      "title": "Membership Committee",
+      "scope_id": 3751,
+      "scope_type": "Chapter",
+      "event_type": "virtual",
+      "location_name": null,
+      "location_data": null,
+      "tags": [],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 128998,
+          "mobilize_event_id": 42948,
+          "start_time": "2026-10-27T16:00:00.000-07:00",
+          "end_time": "2026-10-27T17:00:00.000-07:00",
+          "title": "Membership Committee - Fall Drive",
+          "created_at": "2026-10-11T16:12:03.230-07:00",
+          "updated_at": "2026-10-11T16:12:03.246-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": " https://bdsa.us/MemComm-Zoom",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": "585b080e50da304b",
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 4,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/EZj2mY6i0gk87P15JfMqjpxUC_GvjfSNU2zZDobP6Nw",
+          "primary_session_id": 128998,
+          "city_state_label": null
+        },
+        {
+          "id": 128999,
+          "mobilize_event_id": 42948,
+          "start_time": "2026-11-03T16:00:00.000-08:00",
+          "end_time": "2026-11-03T17:00:00.000-08:00",
+          "title": "Membership Committee - Fall Drive",
+          "created_at": "2026-10-11T16:12:03.395-07:00",
+          "updated_at": "2026-10-11T16:12:03.412-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": " https://bdsa.us/MemComm-Zoom",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": "585b080e50da304b",
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 4,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/QjLrcCWUIC5bo_YyRZ2TrqDOK9I-_1SjKGxZfI_jaaQ",
+          "primary_session_id": 128999,
+          "city_state_label": null
+        },
+        {
+          "id": 128994,
+          "mobilize_event_id": 42948,
+          "start_time": "2026-10-20T16:00:00.000-07:00",
+          "end_time": "2026-10-20T17:00:00.000-07:00",
+          "title": "Membership Committee - Fall Drive",
+          "created_at": "2026-10-11T16:07:01.713-07:00",
+          "updated_at": "2026-10-11T16:07:01.726-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": " https://bdsa.us/MemComm-Zoom",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": "585b080e50da304b",
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 4,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/hr6lRAQOA_BUJkYpFIBNmfOWfnzr4owzyF7C6_jMQqI",
+          "primary_session_id": 128994,
+          "city_state_label": null
+        },
+        {
+          "id": 128993,
+          "mobilize_event_id": 42948,
+          "start_time": "2026-10-13T16:00:00.000-07:00",
+          "end_time": "2026-10-13T17:00:00.000-07:00",
+          "title": "Membership Committee - Fall Drive",
+          "created_at": "2026-10-11T16:07:01.588-07:00",
+          "updated_at": "2026-10-11T16:07:01.601-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": " https://bdsa.us/MemComm-Zoom",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": "585b080e50da304b",
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 6,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/pZLYgkBxiWTfjlosq5mRtIh0Z2TxLzr41GvGxMWAfkA",
+          "primary_session_id": 128993,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/boston-dsa-membership-committee",
+      "event_page_id": 38447,
+      "image_url": "https://s3.amazonaws.com/solidarity.tech/image_uploads/images/000/064/428/original/RackMultipart20261011-132-x0hmjw.png?1791760239",
+      "description": "🥳Welcome to the launch of DSA Fall Membership Drive 🥳Membership Committee is where we do the work of growing, engaging, and empowering our members. No particular skills or experience necessary to get involved!\n\nGrab your individual recruitment link at recruit.dsausa.org Recruit 5+ members using your link by 12/31 to receive a limited edition t-shirt!!!\n(T-shirt design hasn't been announced yet but here's the design from last year to get you hyped)\n \n",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 42948,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-11T16:05:02.395-07:00"
+    },
+    {
+      "id": 42645,
+      "title": "Turnout Tuesday 10/13, Phonebank for Ballot Measure Campaign",
+      "scope_id": 914,
+      "scope_type": "Chapter",
+      "event_type": "virtual",
+      "location_name": null,
+      "location_data": null,
+      "tags": [],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 128291,
+          "mobilize_event_id": 42645,
+          "start_time": "2026-10-13T14:30:00.000-07:00",
+          "end_time": "2026-10-13T16:00:00.000-07:00",
+          "title": "Turnout Tuesday 10/13, Phonebank for Ballot Measure Campaign",
+          "created_at": "2026-10-10T16:25:43.328-07:00",
+          "updated_at": "2026-10-13T11:22:40.566-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/j/86460622382?pwd=UU4eaaUW88MzwOejaBDELujdb2sEII.1",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 11,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/UHa7PBZ6EB1jBf4LkXOD-oNf8sR-1Wz8RS_oKy7Vz-k",
+          "primary_session_id": 128291,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/turnout-tuesday-10-10-phonebank-for-ballot-measure-campaign",
+      "event_page_id": 38355,
+      "image_url": null,
+      "description": "\nWe're turning out members for our ballot measure campaign.\nStop by for as much time as you have to help us make calls. No experience required!\nIt's recommended (but not necessary) to have a laptop/desktop/tablet for this event.\n\n",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 42645,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-10T16:25:43.294-07:00"
+    },
+    {
+      "id": 41853,
+      "title": "Quincy DSA Flock Debrief",
+      "scope_id": 2169,
+      "scope_type": "Chapter",
+      "event_type": "virtual",
+      "location_name": null,
+      "location_data": null,
+      "tags": [],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 127309,
+          "mobilize_event_id": 41853,
+          "start_time": "2026-10-10T15:00:00.000-07:00",
+          "end_time": "2026-10-10T16:00:00.000-07:00",
+          "title": "Quincy DSA Flock Debrief",
+          "created_at": "2026-10-10T09:16:32.746-07:00",
+          "updated_at": "2026-10-10T18:00:13.820-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/meeting/register/1r7__E_nT1ehZU_YvWnUEg",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": 405,
+          "zoom_meeting_id": "84546124082",
+          "zoom_meeting_data": {
+            "id": 84546124082,
+            "type": 2,
+            "uuid": "ZCVknAmkQRCBtX3YrKu5gA==",
+            "topic": "Quincy DSA Flock Debrief",
+            "status": "waiting",
+            "host_id": "r0RjFP_JQJ2DDDZU1H7lkg",
+            "duration": 60,
+            "join_url": "https://us02web.zoom.us/j/84546124082?pwd=hcwrMWe0A7Z3W4xLeiq7MYFXAFrkaa.1",
+            "password": "448662",
+            "settings": {
+              "audio": "both",
+              "use_pmi": false,
+              "jbh_time": 0,
+              "resources": [],
+              "watermark": false,
+              "cn_meeting": false,
+              "focus_mode": false,
+              "host_video": false,
+              "in_meeting": false,
+              "waiting_room": false,
+              "approval_type": 0,
+              "breakout_room": {
+                "enable": false
+              },
+              "enforce_login": false,
+              "auto_recording": "none",
+              "device_testing": false,
+              "show_join_info": true,
+              "encryption_type": "enhanced_encryption",
+              "mute_upon_entry": true,
+              "private_meeting": false,
+              "internal_meeting": false,
+              "join_before_host": false,
+              "meeting_invitees": [],
+              "alternative_hosts": "",
+              "participant_video": false,
+              "show_share_button": true,
+              "close_registration": false,
+              "email_notification": true,
+              "summary_template_id": "1e1356ad",
+              "enforce_login_domains": "",
+              "host_save_video_order": false,
+              "allow_multiple_devices": true,
+              "global_dial_in_numbers": [
+                {
+                  "city": "San Jose",
+                  "type": "toll",
+                  "number": "+1 669 900 6833",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 719 359 4580",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 253 205 0468",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Tacoma",
+                  "type": "toll",
+                  "number": "+1 253 215 8782",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Houston",
+                  "type": "toll",
+                  "number": "+1 346 248 7799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 669 444 9171",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 646 931 3860",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 689 278 1000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Washington DC",
+                  "type": "toll",
+                  "number": "+1 301 715 8592",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 305 224 1968",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 309 205 3325",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Chicago",
+                  "type": "toll",
+                  "number": "+1 312 626 6799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 360 209 5623",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 386 347 5053",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 507 473 4847",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 564 217 2000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "New York",
+                  "type": "toll",
+                  "number": "+1 646 558 8656",
+                  "country": "US",
+                  "country_name": "US"
+                }
+              ],
+              "meeting_authentication": false,
+              "prevent_screen_capture": false,
+              "continuous_meeting_chat": {
+                "enable": true,
+                "channel_id": "web_sch_1d3d36fb04b2488ca4b96782ad59038a",
+                "auto_add_meeting_participants": false,
+                "auto_add_invited_external_users": false
+              },
+              "push_change_to_calendar": false,
+              "email_in_attendee_report": false,
+              "global_dial_in_countries": [
+                "US"
+              ],
+              "disable_recording_control": "none",
+              "auto_start_meeting_summary": false,
+              "participant_focused_meeting": false,
+              "sign_language_interpretation": {
+                "enable": false
+              },
+              "alternative_host_update_polls": false,
+              "registrants_confirmation_email": true,
+              "registrants_email_notification": false,
+              "auto_start_ai_companion_questions": false,
+              "alternative_hosts_email_notification": true,
+              "auto_add_recording_to_video_management": {
+                "enable": false
+              },
+              "alternative_host_manage_cloud_recording": true,
+              "alternative_host_manage_meeting_summary": true,
+              "approved_or_denied_countries_or_regions": {
+                "enable": false
+              },
+              "allow_host_control_participant_mute_state": false,
+              "request_permission_to_unmute_participants": false
+            },
+            "timezone": "America/New_York",
+            "start_url": "https://us02web.zoom.us/s/84546124082?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMiIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJ3ZWIiLCJjbHQiOjAsIm1udW0iOiI4NDU0NjEyNDA4MiIsImF1ZCI6ImNsaWVudHNtIiwidWlkIjoicjBSakZQX0pRSjJERERaVTFIN2xrZyIsInppZCI6IjcwNDFjM2JjYzJiNTQ3NTU5MDk3NmZhZmQ2OTg0YTI4Iiwic2siOiIwIiwic3R5IjoxMDAsIndjZCI6InVzMDIiLCJleHAiOjE3OTE2NTYxOTMsImlhdCI6MTc5MTY0ODk5MywiYWlkIjoiVWNuNW84VHdRYkNyVVFpMzFpV0laZyIsImNpZCI6IiJ9.0avJumUTugQIKCqsYubuqKyF1dZiiEzVS9K3zuBol-0",
+            "created_at": "2026-10-10T16:16:33Z",
+            "host_email": "zoom@bostondsa.org",
+            "start_time": "2026-10-10T22:00:00Z",
+            "pre_schedule": false,
+            "chat_join_url": "https://us02web.zoom.us/launch/jc/84546124082",
+            "h323_password": "448662",
+            "pstn_password": "448662",
+            "creation_source": "open_api",
+            "registration_url": "https://us02web.zoom.us/meeting/register/1r7__E_nT1ehZU_YvWnUEg",
+            "encrypted_password": "hcwrMWe0A7Z3W4xLeiq7MYFXAFrkaa.1"
+          },
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": "2026-10-10T18:00:13.816-07:00",
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 5,
+          "host_tools_url": "https://www.solidarity.tech/h/UjNaplcCCJ3KQBxF9KQGABTEoothH0Q9pjI3cfepQ5w",
+          "primary_session_id": 127309,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/quincy-dsa-flock-debrief",
+      "event_page_id": 38238,
+      "image_url": null,
+      "description": "This a quick meeting to debrief the Quincy Public Hearing on Flock last week and consider next steps. \nZoom link:\n\nhttps://us02web.zoom.us/j/84546124082\n\n\n",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 41853,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-10T09:16:32.717-07:00"
+    },
+    {
+      "id": 41852,
+      "title": "General Meeting Planning Committee - Planning Call",
+      "scope_id": 316,
+      "scope_type": "Organization",
+      "event_type": "virtual",
+      "location_name": null,
+      "location_data": null,
+      "tags": [],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 127306,
+          "mobilize_event_id": 41852,
+          "start_time": "2026-10-22T17:00:00.000-07:00",
+          "end_time": "2026-10-22T18:00:00.000-07:00",
+          "title": "General Meeting Planning Committee - Planning Call",
+          "created_at": "2026-10-10T09:15:18.357-07:00",
+          "updated_at": "2026-10-10T09:39:05.804-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "bdsa.us/GMPC-Agenda",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/hAHtf-ZPAMNQ_L0XK1i8EXoFBfojYL8S4USE8ygMYz8",
+          "primary_session_id": 127306,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/general-meeting-planning-committee-planning-call",
+      "event_page_id": 38237,
+      "image_url": null,
+      "description": "Join the General Meeting Planning Committee to help plan Boston DSA's General Meetings and General Organizing Meetings! No experience is required, and all skillsets are welcome--many hands make light work, and we need all sorts of hands, from the most gregarious extroverts to the most introverted computer goblins. Still unsure of joining? There are many small tasks with little to no commitments needed make it all happen every month. :) RSVP for the link to the agenda and Zoom call!\nWhat is a General Meeting? A General Meeting is a meeting of the chapter's General Membership, its highest decision-making body. General Meetings are where the General Membership comes together deliberate and make decisions democratically and collectively, as well as to catch up on our ongoing work (and learn how to plug into it), skill-share, and engage in political education.\nWhat are General Organizing Meetings? General Organizing Meetings are also all-chapter meetings, but their focus is primarily on implementing our decisions once we've made them. Time at these meetings is primarily dedicated to training, skill-sharing, and political education, and, when possible, active organizing tasks. \nWhat is the General Meeting Planning Committee? The GMPC primarily a logistical event planning body, and is responsible for booking venues, recruiting volunteers, liaising with the Coordinating Committee and Internal Elections, and taking on any other meeting-related support tasks that the Coordinating Committee wishes to delegate. The Coordinating Committee is the final authority on GM/GOM agendas, although the GMPC can coordinate with you on developing and presenting your agenda item if the CC approves it.",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 41852,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-10T09:15:18.320-07:00"
+    },
+    {
+      "id": 41704,
+      "title": "General meeting (Newton and virtual)",
+      "scope_id": 3061,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 126802,
+          "mobilize_event_id": 41704,
+          "start_time": "2026-10-22T16:00:00.000-07:00",
+          "end_time": "2026-10-22T18:00:00.000-07:00",
+          "title": "General meeting (Newton and virtual)",
+          "created_at": "2026-10-09T13:34:03.009-07:00",
+          "updated_at": "2026-10-16T08:54:42.417-07:00",
+          "location_name": "Grace Episcopal Church",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "76",
+                "short_name": "76",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Eldredge Street",
+                "short_name": "Eldredge St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Newton Corner",
+                "short_name": "Newton Corner",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Newton",
+                "short_name": "Newton",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Middlesex County",
+                "short_name": "Middlesex County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02458",
+                "short_name": "02458",
+                "types": [
+                  "postal_code"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.353205,
+              "lng": -71.1834648
+            },
+            "address_city": "Newton",
+            "full_address": "76 Eldredge St, Newton, MA 02458, USA",
+            "address_state": "MA",
+            "address_line_1": "76 Eldredge Street",
+            "address_country": "US",
+            "address_postal_code": "02458"
+          },
+          "lonlat": "POINT (-71.1834648 42.353205)",
+          "location_address": "76 Eldredge St, Newton, MA 02458, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": 126803,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/JLSQrgf2QA6H7wK58Ouk54vNJdP077XC58mTft2vj80",
+          "primary_session_id": 126802,
+          "city_state_label": "Newton, MA"
+        },
+        {
+          "id": 126803,
+          "mobilize_event_id": 41704,
+          "start_time": "2026-10-22T16:00:00.000-07:00",
+          "end_time": "2026-10-22T18:00:00.000-07:00",
+          "title": "General meeting (Newton and virtual)",
+          "created_at": "2026-10-09T13:34:03.029-07:00",
+          "updated_at": "2026-10-16T08:55:18.951-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us06web.zoom.us/meeting/register/8O6RDoKTTl2mg3wu3HXeIQ",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "New Member Friendly",
+            "Neighborhood Group Meeting",
+            "MetroWest"
+          ],
+          "zoom_account_id": 654,
+          "zoom_meeting_id": "82612071371",
+          "zoom_meeting_data": {
+            "id": 82612071371,
+            "type": 2,
+            "uuid": "NMT7Ej4YR+igGgx0Cmb/7g==",
+            "topic": "MetroWest general meeting (hybrid)",
+            "status": "waiting",
+            "host_id": "rDVaOOoaShGgAULFC9Av0Q",
+            "duration": 120,
+            "join_url": "https://us06web.zoom.us/j/82612071371?pwd=0iM9sEIQ4SkEfxE6suGEsbaxS7VfUi.1",
+            "password": "544865",
+            "settings": {
+              "audio": "both",
+              "use_pmi": false,
+              "jbh_time": 0,
+              "resources": [],
+              "watermark": false,
+              "cn_meeting": false,
+              "focus_mode": false,
+              "host_video": true,
+              "in_meeting": false,
+              "waiting_room": false,
+              "approval_type": 0,
+              "breakout_room": {
+                "enable": false
+              },
+              "enforce_login": false,
+              "auto_recording": "none",
+              "device_testing": false,
+              "show_join_info": true,
+              "encryption_type": "enhanced_encryption",
+              "mute_upon_entry": true,
+              "private_meeting": false,
+              "internal_meeting": false,
+              "join_before_host": true,
+              "meeting_invitees": [],
+              "alternative_hosts": "",
+              "participant_video": true,
+              "show_share_button": true,
+              "close_registration": false,
+              "email_notification": true,
+              "summary_template_id": "1e1356ad",
+              "enforce_login_domains": "",
+              "host_save_video_order": false,
+              "allow_multiple_devices": true,
+              "global_dial_in_numbers": [
+                {
+                  "city": "Tacoma",
+                  "type": "toll",
+                  "number": "+1 253 215 8782",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Houston",
+                  "type": "toll",
+                  "number": "+1 346 248 7799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 669 444 9171",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "San Jose",
+                  "type": "toll",
+                  "number": "+1 669 900 6833",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 719 359 4580",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 253 205 0468",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 507 473 4847",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 564 217 2000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 646 931 3860",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 689 278 1000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "New York",
+                  "type": "toll",
+                  "number": "+1 929 205 6099",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Washington DC",
+                  "type": "toll",
+                  "number": "+1 301 715 8592",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 305 224 1968",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 309 205 3325",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Chicago",
+                  "type": "toll",
+                  "number": "+1 312 626 6799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 360 209 5623",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 386 347 5053",
+                  "country": "US",
+                  "country_name": "US"
+                }
+              ],
+              "meeting_authentication": false,
+              "prevent_screen_capture": false,
+              "continuous_meeting_chat": {
+                "enable": true,
+                "channel_id": "web_sch_9f125e8190d84734a7e4dd2032d82be7",
+                "auto_add_meeting_participants": false,
+                "auto_add_invited_external_users": false
+              },
+              "language_interpretation": {
+                "enable": false
+              },
+              "push_change_to_calendar": false,
+              "email_in_attendee_report": false,
+              "global_dial_in_countries": [
+                "US"
+              ],
+              "disable_recording_control": "none",
+              "auto_start_meeting_summary": false,
+              "participant_focused_meeting": false,
+              "sign_language_interpretation": {
+                "enable": false
+              },
+              "alternative_host_update_polls": false,
+              "registrants_confirmation_email": true,
+              "registrants_email_notification": false,
+              "auto_start_ai_companion_questions": false,
+              "alternative_hosts_email_notification": true,
+              "auto_add_recording_to_video_management": {
+                "enable": false
+              },
+              "alternative_host_manage_cloud_recording": true,
+              "alternative_host_manage_meeting_summary": true,
+              "approved_or_denied_countries_or_regions": {
+                "enable": false
+              },
+              "allow_host_control_participant_mute_state": false,
+              "request_permission_to_unmute_participants": false
+            },
+            "timezone": "America/New_York",
+            "start_url": "https://us06web.zoom.us/s/82612071371?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMiIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJ3ZWIiLCJjbHQiOjAsIm1udW0iOiI4MjYxMjA3MTM3MSIsImF1ZCI6ImNsaWVudHNtIiwidWlkIjoickRWYU9Pb2FTaEdnQVVMRkM5QXYwUSIsInppZCI6ImQ1MGVmZDcxYWI0MDQyMmY5MjU0OTJiZjM3MWJmZjkzIiwic2siOiIwIiwic3R5IjoxMDAsIndjZCI6InVzMDYiLCJleHAiOjE3OTE1ODUyNDMsImlhdCI6MTc5MTU3ODA0MywiYWlkIjoiRDg5WGdrT2RTT0NNWWZCaERyTjZjUSIsImNpZCI6IiJ9.fhqtLfg-AMKhKvt1DX-cINtUAZEbovsjMUasUxwRR38",
+            "created_at": "2026-10-09T20:34:03Z",
+            "host_email": "christopher_hill@me.com",
+            "start_time": "2026-10-22T23:00:00Z",
+            "pre_schedule": false,
+            "chat_join_url": "https://us06web.zoom.us/launch/jc/82612071371",
+            "h323_password": "544865",
+            "pstn_password": "544865",
+            "creation_source": "open_api",
+            "registration_url": "https://us06web.zoom.us/meeting/register/8O6RDoKTTl2mg3wu3HXeIQ",
+            "encrypted_password": "0iM9sEIQ4SkEfxE6suGEsbaxS7VfUi.1"
+          },
+          "zoom_join_before_host": true,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": 126802,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/J49vK-uRHjAMO5qKQFuOz8eyxheEkLmm4a8u3M1XTTQ",
+          "primary_session_id": 126803,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/metrowest-general-meeting-hybrid-2",
+      "event_page_id": 38155,
+      "image_url": "https://s3.amazonaws.com/solidarity.tech/image_uploads/images/000/064/801/original/RackMultipart20261013-13978-zdkhm9.png?1791918983",
+      "description": null,
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 41704,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-09T13:34:02.980-07:00"
+    },
+    {
+      "id": 41346,
+      "title": "\"No On 5\" Canvass",
+      "scope_id": 3061,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "New Member Friendly",
+        "canvass",
+        "Canvasses",
+        "MetroWest"
+      ],
+      "campaign_tags": [
+        "No on 5"
+      ],
+      "event_sessions": [
+        {
+          "id": 124986,
+          "mobilize_event_id": 41346,
+          "start_time": "2026-10-15T14:00:00.000-07:00",
+          "end_time": "2026-10-15T16:00:00.000-07:00",
+          "title": "\"No On 5\" Canvass",
+          "created_at": "2026-10-08T14:30:22.311-07:00",
+          "updated_at": "2026-10-08T14:45:32.083-07:00",
+          "location_name": "Newton Center",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "Centre Street & Beacon Street",
+                "short_name": "Centre St & Beacon St",
+                "types": [
+                  "intersection"
+                ]
+              },
+              {
+                "long_name": "Newton Centre",
+                "short_name": "Newton Centre",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Newton",
+                "short_name": "Newton",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Middlesex County",
+                "short_name": "Middlesex County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02459",
+                "short_name": "02459",
+                "types": [
+                  "postal_code"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.3299966,
+              "lng": -71.1948805
+            },
+            "address_city": "Newton",
+            "full_address": "Centre St & Beacon St, Newton, MA 02459, USA",
+            "address_state": "MA",
+            "address_line_1": "Centre Street & Beacon Street",
+            "address_country": "US",
+            "address_postal_code": "02459"
+          },
+          "lonlat": "POINT (-71.1948805 42.3299966)",
+          "location_address": "Centre St & Beacon St, Newton, MA 02459, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "We will be meeting at the corner of Beacon st. & Centre St. to canvass for the \"No on 5\" campaign. No experience necessary! Come early to support CD4 constituents in their 4-5pm standout for Palestine!",
+          "tags": [
+            "New Member Friendly",
+            "canvass",
+            "Canvasses",
+            "MetroWest"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 4,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/yrzpZhCTFFLFCVvE-mIgqBRY5FSQHVZv47062KPzSfU",
+          "primary_session_id": 124986,
+          "city_state_label": "Newton, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/no-on-5-canvass",
+      "event_page_id": 37953,
+      "image_url": null,
+      "description": "We will be meeting at the corner of Beacon st. &amp; Centre St. to canvass for the \"No on 5\" campaign. No canvassing experience necessary! Talking points and a brief training will be provided.\nCome early to support CD4 constituents in their pressure campaign to get Congressman Jake Auchincloss to sign on to the Block the Bombs Act by coming to their 4-5pm standout!",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 41346,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-08T14:30:22.281-07:00"
+    },
+    {
+      "id": 40547,
+      "title": "Coffee with Comrades (Marlborough)",
+      "scope_id": 3061,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "New Member Friendly",
+        "MetroWest"
+      ],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 123028,
+          "mobilize_event_id": 40547,
+          "start_time": "2026-11-08T07:00:00.000-08:00",
+          "end_time": "2026-11-08T09:00:00.000-08:00",
+          "title": "Coffee with Comrades (Marlborough)",
+          "created_at": "2026-10-06T13:40:50.488-07:00",
+          "updated_at": "2026-10-15T16:34:34.627-07:00",
+          "location_name": "Cafe Andina",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "420",
+                "short_name": "420",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Maple Street",
+                "short_name": "Maple St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Marlborough",
+                "short_name": "Marlboro",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Middlesex County",
+                "short_name": "Middlesex County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "01752",
+                "short_name": "01752",
+                "types": [
+                  "postal_code"
+                ]
+              },
+              {
+                "long_name": "6202",
+                "short_name": "6202",
+                "types": [
+                  "postal_code_suffix"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.3322459,
+              "lng": -71.54021730000001
+            },
+            "address_city": "Marlborough",
+            "full_address": "420 Maple St, Marlborough, MA 01752, USA",
+            "address_state": "MA",
+            "address_line_1": "420 Maple Street",
+            "address_country": "US",
+            "address_postal_code": "01752"
+          },
+          "lonlat": "POINT (-71.54021730000001 42.3322459)",
+          "location_address": "420 Maple St, Marlborough, MA 01752, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "New Member Friendly",
+            "MetroWest"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/xPCojtb9Vsv2QzeTN5c6ETEXOS7OzKgknBZESgFk12Q",
+          "primary_session_id": 123028,
+          "city_state_label": "Marlborough, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/coffee-with-comrades-newton-copy",
+      "event_page_id": 37398,
+      "image_url": "https://s3.amazonaws.com/solidarity.tech/image_uploads/images/000/064/447/original/RackMultipart20261012-157-zs68gx.png?1791770042",
+      "description": "This Coffee with Comrades event at Andina Cafe, 420 Maple St. in Marlborough, is co-sponsored by our comrades in the Worcester DSA chapter. ",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 40547,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-06T13:40:50.478-07:00"
+    },
+    {
+      "id": 40265,
+      "title": "Poker Night Strike Fundraiser",
+      "scope_id": 1333,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "EncoreSupport"
+      ],
+      "campaign_tags": [
+        "Labor",
+        "Labor Working Group"
+      ],
+      "event_sessions": [
+        {
+          "id": 122159,
+          "mobilize_event_id": 40265,
+          "start_time": "2026-10-15T16:00:00.000-07:00",
+          "end_time": "2026-10-15T19:00:00.000-07:00",
+          "title": "Poker Night Strike Fundraiser",
+          "created_at": "2026-10-05T14:50:03.513-07:00",
+          "updated_at": "2026-10-05T14:50:03.531-07:00",
+          "location_name": "Glitch Gallery (Suite 2G)",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "7",
+                "short_name": "7",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Sherman Street",
+                "short_name": "Sherman St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Charlestown",
+                "short_name": "Charlestown",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02129",
+                "short_name": "02129",
+                "types": [
+                  "postal_code"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.3869754,
+              "lng": -71.076381
+            },
+            "address_city": "",
+            "full_address": "7 Sherman St, Charlestown, MA 02129, USA",
+            "address_state": "MA",
+            "address_line_1": "7 Sherman Street",
+            "address_country": "US",
+            "address_postal_code": "02129"
+          },
+          "lonlat": "POINT (-71.076381 42.3869754)",
+          "location_address": "7 Sherman St, Charlestown, MA 02129, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 39,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/CFF8iefBguDxNk2_-2wk9234B5KYLSjrCejcZcvAoR4",
+          "primary_session_id": 122159,
+          "city_state_label": "Charlestown, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/poker-night-strike-fundraiser",
+      "event_page_id": 37178,
+      "image_url": "https://s3.amazonaws.com/solidarity.tech/image_uploads/images/000/063/146/original/RackMultipart20261005-150-khtw0o.png?1791237742",
+      "description": "Join us on October 15th at Glitch Gallery for a poker night fundraiser for striking casino workers! The entry fee will go straight to the hardship fund to help the workers make it through the strike. There will be free games, cheap drinks, and a poker tournament with a prize for the winner. Come support local workers and have fun doing it!",
+      "hide_address_until_rsvp": true,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 40265,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-05T14:50:03.480-07:00"
+    },
+    {
+      "id": 40243,
+      "title": "Post-Orientation Social",
+      "scope_id": 914,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "New Member Friendly",
+        "Onboarding",
+        "Orientation",
+        "Social"
+      ],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 122130,
+          "mobilize_event_id": 40243,
+          "start_time": "2026-10-24T09:00:00.000-07:00",
+          "end_time": "2026-10-24T11:00:00.000-07:00",
+          "title": "Post-Orientation Social",
+          "created_at": "2026-10-05T13:46:51.253-07:00",
+          "updated_at": "2026-10-05T15:22:45.762-07:00",
+          "location_name": "Community Church of Boston",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "565",
+                "short_name": "565",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Boylston Street",
+                "short_name": "Boylston St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Back Bay",
+                "short_name": "Back Bay",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Boston",
+                "short_name": "Boston",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Suffolk County",
+                "short_name": "Suffolk County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02116",
+                "short_name": "02116",
+                "types": [
+                  "postal_code"
+                ]
+              },
+              {
+                "long_name": "5111",
+                "short_name": "5111",
+                "types": [
+                  "postal_code_suffix"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.350641,
+              "lng": -71.076347
+            },
+            "address_city": "Boston",
+            "full_address": "565 Boylston St, Boston, MA 02116, USA",
+            "address_state": "MA",
+            "address_line_1": "565 Boylston Street",
+            "address_country": "US",
+            "address_postal_code": "02116"
+          },
+          "lonlat": "POINT (-71.076347 42.350641)",
+          "location_address": "565 Boylston St, Boston, MA 02116, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "New Member Friendly",
+            "Onboarding",
+            "Orientation",
+            "Social"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 5,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/YC6IDVRp6-0k0gNgfMd-ndiByjyAKEDYXc0tLU2U8B8",
+          "primary_session_id": 122130,
+          "city_state_label": "Boston, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/post-orientation-social",
+      "event_page_id": 37155,
+      "image_url": null,
+      "description": "Join comrades from the Boston DSA Membership Committee as we build community and get to know each other! If you're new to DSA or looking to learn more about our work, this post-orientation social is the perfect place to connect with other new and experienced DSA-ers and plug into ongoing work. New, experienced, and prospective members are all welcome! Orientation attendance not required.",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": {
+        "en": "The event will be in the Lothrop Auditorium on the 2nd floor of the building, accessible by elevator or stair. There are two bathrooms in Lothrop Auditorium (not wheelchair accessible) and a wheelchair accessible bathroom on the third floor."
+      },
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 40243,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-05T13:46:51.233-07:00"
+    },
+    {
+      "id": 40230,
+      "title": "New Member Orientation (In-Person)",
+      "scope_id": 914,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "New Member Friendly",
+        "Orientation"
+      ],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 122110,
+          "mobilize_event_id": 40230,
+          "start_time": "2026-10-24T08:00:00.000-07:00",
+          "end_time": "2026-10-24T09:00:00.000-07:00",
+          "title": "New Member Orientation (In-Person)",
+          "created_at": "2026-10-05T13:30:08.278-07:00",
+          "updated_at": "2026-10-05T13:45:53.308-07:00",
+          "location_name": "Community Church of Boston",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "565",
+                "short_name": "565",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Boylston Street",
+                "short_name": "Boylston St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Back Bay",
+                "short_name": "Back Bay",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Boston",
+                "short_name": "Boston",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Suffolk County",
+                "short_name": "Suffolk County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02116",
+                "short_name": "02116",
+                "types": [
+                  "postal_code"
+                ]
+              },
+              {
+                "long_name": "5111",
+                "short_name": "5111",
+                "types": [
+                  "postal_code_suffix"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.350641,
+              "lng": -71.076347
+            },
+            "address_city": "Boston",
+            "full_address": "565 Boylston St, Boston, MA 02116, USA",
+            "address_state": "MA",
+            "address_line_1": "565 Boylston Street",
+            "address_country": "US",
+            "address_postal_code": "02116"
+          },
+          "lonlat": "POINT (-71.076347 42.350641)",
+          "location_address": "565 Boylston St, Boston, MA 02116, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "New Member Friendly",
+            "Orientation"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 12,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/fr2-y27E7VjOIN3Zf-pNbUP0Zlc3lImkfvIt77Frq5Y",
+          "primary_session_id": 122110,
+          "city_state_label": "Boston, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/new-member-orientation-in-person",
+      "event_page_id": 37151,
+      "image_url": null,
+      "description": "New to Boston DSA? Not sure how to get started? Not a member yet, but looking to dip your toe in? Or maybe you're a not-so-new member, but haven't been active in a while? Welcome! Join us for a Chapter Orientation.\nComrades from our Onboarding &amp; Membership Team will walk you through the chapter's mission and structure, answer questions, facilitate discussion about socialist organizing in Boston, discuss our Chapter's current priorities and projects, and help you get plugged in and involved in fighting for a better world.",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": true,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 40230,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-05T13:30:08.245-07:00"
+    },
+    {
+      "id": 39466,
+      "title": "New Member Orientation",
+      "scope_id": 914,
+      "scope_type": "Chapter",
+      "event_type": "virtual",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "New Member Friendly",
+        "Orientation"
+      ],
+      "campaign_tags": [],
+      "event_sessions": [
+        {
+          "id": 119733,
+          "mobilize_event_id": 39466,
+          "start_time": "2026-11-14T08:00:00.000-08:00",
+          "end_time": "2026-11-14T09:00:00.000-08:00",
+          "title": "New Member Orientation",
+          "created_at": "2026-10-02T11:10:28.801-07:00",
+          "updated_at": "2026-10-15T14:12:16.065-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/meeting/register/0mOkncAkQ_6RNE2EfAuRXQ",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "New Member Friendly",
+            "Orientation"
+          ],
+          "zoom_account_id": 419,
+          "zoom_meeting_id": "89945691924",
+          "zoom_meeting_data": {
+            "id": 89945691924,
+            "type": 2,
+            "uuid": "BBQZwHBjSgiO83SyaIjnpQ==",
+            "topic": "New Member Orientation",
+            "status": "waiting",
+            "host_id": "seMiINYmTnikKKlyuH4P1g",
+            "duration": 60,
+            "join_url": "https://us02web.zoom.us/j/89945691924?pwd=gj8wrZa9VQhtixCvWFk7VKq9aFlRG5.1",
+            "password": "099956",
+            "settings": {
+              "audio": "both",
+              "use_pmi": false,
+              "jbh_time": 0,
+              "resources": [],
+              "watermark": false,
+              "cn_meeting": false,
+              "focus_mode": false,
+              "host_video": false,
+              "in_meeting": false,
+              "waiting_room": false,
+              "approval_type": 0,
+              "breakout_room": {
+                "enable": false
+              },
+              "enforce_login": false,
+              "auto_recording": "none",
+              "device_testing": false,
+              "show_join_info": true,
+              "encryption_type": "enhanced_encryption",
+              "mute_upon_entry": true,
+              "private_meeting": false,
+              "internal_meeting": false,
+              "join_before_host": false,
+              "meeting_invitees": [],
+              "alternative_hosts": "",
+              "participant_video": false,
+              "show_share_button": true,
+              "close_registration": false,
+              "email_notification": true,
+              "summary_template_id": "1e1356ad",
+              "enforce_login_domains": "",
+              "host_save_video_order": false,
+              "allow_multiple_devices": true,
+              "global_dial_in_numbers": [
+                {
+                  "type": "toll",
+                  "number": "+1 253 205 0468",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Tacoma",
+                  "type": "toll",
+                  "number": "+1 253 215 8782",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Houston",
+                  "type": "toll",
+                  "number": "+1 346 248 7799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 669 444 9171",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "San Jose",
+                  "type": "toll",
+                  "number": "+1 669 900 6833",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 719 359 4580",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Washington DC",
+                  "type": "toll",
+                  "number": "+1 301 715 8592",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 305 224 1968",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 309 205 3325",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "Chicago",
+                  "type": "toll",
+                  "number": "+1 312 626 6799",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 360 209 5623",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 386 347 5053",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 507 473 4847",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 564 217 2000",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "city": "New York",
+                  "type": "toll",
+                  "number": "+1 646 558 8656",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 646 931 3860",
+                  "country": "US",
+                  "country_name": "US"
+                },
+                {
+                  "type": "toll",
+                  "number": "+1 689 278 1000",
+                  "country": "US",
+                  "country_name": "US"
+                }
+              ],
+              "meeting_authentication": false,
+              "prevent_screen_capture": false,
+              "continuous_meeting_chat": {
+                "enable": true,
+                "channel_id": "web_sch_34acb3bff375486881567f0813eb35f3",
+                "auto_add_meeting_participants": false,
+                "auto_add_invited_external_users": false
+              },
+              "push_change_to_calendar": false,
+              "email_in_attendee_report": false,
+              "global_dial_in_countries": [
+                "US"
+              ],
+              "disable_recording_control": "none",
+              "auto_start_meeting_summary": false,
+              "participant_focused_meeting": false,
+              "sign_language_interpretation": {
+                "enable": false
+              },
+              "alternative_host_update_polls": false,
+              "registrants_confirmation_email": true,
+              "registrants_email_notification": false,
+              "auto_start_ai_companion_questions": false,
+              "alternative_hosts_email_notification": true,
+              "auto_add_recording_to_video_management": {
+                "enable": false
+              },
+              "alternative_host_manage_cloud_recording": true,
+              "alternative_host_manage_meeting_summary": true,
+              "approved_or_denied_countries_or_regions": {
+                "enable": false
+              },
+              "allow_host_control_participant_mute_state": false,
+              "request_permission_to_unmute_participants": false
+            },
+            "timezone": "America/New_York",
+            "start_url": "https://us02web.zoom.us/s/89945691924?zak=eyJ0eXAiOiJKV1QiLCJzdiI6IjAwMDAwMiIsInptX3NrbSI6InptX28ybSIsImFsZyI6IkhTMjU2In0.eyJpc3MiOiJ3ZWIiLCJjbHQiOjAsIm1udW0iOiI4OTk0NTY5MTkyNCIsImF1ZCI6ImNsaWVudHNtIiwidWlkIjoic2VNaUlOWW1UbmlrS0tseXVINFAxZyIsInppZCI6IjZmN2NlNjNmNmNjZTRlZDc4MWQ3Mzg2Mjc3ZGNhYTA4Iiwic2siOiI0ODQyMjE0MjA3ODI5MTEwNDMyIiwic3R5IjoxMDAsIndjZCI6InVzMDIiLCJleHAiOjE3OTA5NzE4MjksImlhdCI6MTc5MDk2NDYyOSwiYWlkIjoiVWNuNW84VHdRYkNyVVFpMzFpV0laZyIsImNpZCI6IiJ9.5iM2bh0p463g353GrZCEgyv6vkIa9WKygW0X-8Y-EvM",
+            "created_at": "2026-10-02T18:10:29Z",
+            "host_email": "info@bostondsa.org",
+            "start_time": "2026-11-14T16:00:00Z",
+            "pre_schedule": false,
+            "chat_join_url": "https://us02web.zoom.us/launch/jc/89945691924",
+            "h323_password": "099956",
+            "pstn_password": "099956",
+            "creation_source": "open_api",
+            "registration_url": "https://us02web.zoom.us/meeting/register/0mOkncAkQ_6RNE2EfAuRXQ",
+            "encrypted_password": "gj8wrZa9VQhtixCvWFk7VKq9aFlRG5.1"
+          },
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 2,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/ZeVzzAS3s4QSpdLrRk-SgsQEsukwblf0aiABdoCJowo",
+          "primary_session_id": 119733,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/new-member-orientation",
+      "event_page_id": 36808,
+      "image_url": null,
+      "description": "New to Boston DSA? Not sure how to get started? Not a member yet, but looking to dip your toe in? Or maybe you're a not-so-new member, but haven't been active in a while? Welcome! Join us via Zoom for a Chapter Orientation.\nComrades from our Onboarding &amp; Membership Team will walk you through the chapter's mission and structure, answer questions, facilitate discussion about socialist organizing in Boston, discuss our Chapter's current priorities and projects, and help you get plugged in and involved in fighting for a better world.",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": true,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 39466,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-02T11:10:28.760-07:00"
+    },
+    {
+      "id": 39135,
+      "title": "Support Sex Workers at Cambridge City Council",
+      "scope_id": 1333,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "BSWAC"
+      ],
+      "campaign_tags": [
+        "Labor"
+      ],
+      "event_sessions": [
+        {
+          "id": 118932,
+          "mobilize_event_id": 39135,
+          "start_time": "2026-10-05T14:00:00.000-07:00",
+          "end_time": "2026-10-05T17:00:00.000-07:00",
+          "title": "Support Sex Workers at Cambridge City Council",
+          "created_at": "2026-10-01T09:57:48.651-07:00",
+          "updated_at": "2026-10-01T09:57:48.666-07:00",
+          "location_name": "Cambridge City Hall",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "795",
+                "short_name": "795",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Massachusetts Avenue",
+                "short_name": "Massachusetts Ave",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Central Square",
+                "short_name": "Central Square",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Cambridge",
+                "short_name": "Cambridge",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Middlesex County",
+                "short_name": "Middlesex County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02139",
+                "short_name": "02139",
+                "types": [
+                  "postal_code"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.36722899999999,
+              "lng": -71.10572789999999
+            },
+            "address_city": "Cambridge",
+            "full_address": "795 Massachusetts Ave, Cambridge, MA 02139, USA",
+            "address_state": "MA",
+            "address_line_1": "795 Massachusetts Avenue",
+            "address_country": "US",
+            "address_postal_code": "02139"
+          },
+          "lonlat": "POINT (-71.10572789999999 42.36722899999999)",
+          "location_address": "795 Massachusetts Ave, Cambridge, MA 02139, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/XoDMXtnodH9VFlaIFwItwCO02_0Xbwyz5ffK-1_i4GY",
+          "primary_session_id": 118932,
+          "city_state_label": "Cambridge, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/bswac-at-cambridge-council",
+      "event_page_id": 36457,
+      "image_url": null,
+      "description": "Join BDSA and BSWAC to support sex workers at Cambridge city council. A proposal cosponsored by our very own Socialist in Office Jivan Sobrinho-Wheeler aims to begin decriminalizing sex work in Cambridge and providing protections for workers in the industry. Read the proposal here. Decriminalization of consensual sex work is proven to improve conditions for workers and increase safety for those experiencing coercion.\nWe'll be meeting outside city hall at 5 pm before the meeting starts at 5:30. It is expected to last several hours and you are welcome to come late or leave early. Wear red or pink to show your support!\nVisit https://bswac.org/ to learn more and find other ways to support, including giving testimony at the meeting.",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 39135,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-10-01T09:57:48.623-07:00"
+    },
+    {
+      "id": 38999,
+      "title": "Labor Working Group Monthly Meeting",
+      "scope_id": 1333,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "LWGMonthlyMeeting"
+      ],
+      "campaign_tags": [
+        "Labor"
+      ],
+      "event_sessions": [
+        {
+          "id": 121193,
+          "mobilize_event_id": 38999,
+          "start_time": "2026-11-18T15:30:00.000-08:00",
+          "end_time": "2026-11-18T17:00:00.000-08:00",
+          "title": "Monthly Meeting",
+          "created_at": "2026-10-04T17:00:36.391-07:00",
+          "updated_at": "2026-10-04T17:00:36.464-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/j/81053705658?pwd=wnzHDMJspbqUCotjOWnePvQcRAFEVV.1",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": 121192,
+          "recurring_schedule_id": "a7d9d3c0557c3995",
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/NTh7RuPZ2-6gXaSqzrMc_mSm1DLs6Di0HkyNQnZxDGs",
+          "primary_session_id": 121193,
+          "city_state_label": null
+        },
+        {
+          "id": 121192,
+          "mobilize_event_id": 38999,
+          "start_time": "2026-11-18T15:30:00.000-08:00",
+          "end_time": "2026-11-18T17:00:00.000-08:00",
+          "title": "Monthly Meeting",
+          "created_at": "2026-10-04T17:00:36.351-07:00",
+          "updated_at": "2026-10-04T17:00:36.435-07:00",
+          "location_name": "",
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "TBA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": 121193,
+          "recurring_schedule_id": "a7d9d3c0557c3995",
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/DoR2dpjVMbGjaSBXgxwMZJXzblISnO-Dh8vswpxPKO4",
+          "primary_session_id": 121192,
+          "city_state_label": null
+        },
+        {
+          "id": 118677,
+          "mobilize_event_id": 38999,
+          "start_time": "2026-10-21T15:30:00.000-07:00",
+          "end_time": "2026-10-21T17:00:00.000-07:00",
+          "title": "Labor Working Group Monthly Meeting",
+          "created_at": "2026-09-30T18:30:16.255-07:00",
+          "updated_at": "2026-09-30T18:30:16.298-07:00",
+          "location_name": null,
+          "location_data": null,
+          "lonlat": null,
+          "location_address": "https://us02web.zoom.us/j/81053705658?pwd=wnzHDMJspbqUCotjOWnePvQcRAFEVV.1",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "virtual",
+          "paired_meci_id": 118676,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/BFvljMZiAbikliapSqT73QUtUOqrX_LgrXi7L6cQJZ8",
+          "primary_session_id": 118677,
+          "city_state_label": null
+        },
+        {
+          "id": 118676,
+          "mobilize_event_id": 38999,
+          "start_time": "2026-10-21T15:30:00.000-07:00",
+          "end_time": "2026-10-21T17:00:00.000-07:00",
+          "title": "Labor Working Group Monthly Meeting",
+          "created_at": "2026-09-30T18:30:16.232-07:00",
+          "updated_at": "2026-09-30T18:30:16.283-07:00",
+          "location_name": "TBA",
+          "location_data": {
+            "components": "",
+            "coordinates": "",
+            "address_city": "",
+            "full_address": "",
+            "address_state": "",
+            "address_line_1": "",
+            "address_country": "",
+            "address_postal_code": ""
+          },
+          "lonlat": null,
+          "location_address": "",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": 118677,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/Xb6q7Hd0y_s4M5d1pn98tpGjPjuIda_elJdwNEyqWH4",
+          "primary_session_id": 118676,
+          "city_state_label": null
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/labor-working-group-monthly-meeting",
+      "event_page_id": 36345,
+      "image_url": null,
+      "description": "Join us for our monthly meeting! All are welcome! If you have something you would like to add to the agenda, please email us at labor@bostondsa.org\nLocation and agenda will be announced before the meeting. ",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 38999,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-09-30T18:30:16.190-07:00"
+    },
+    {
+      "id": 38995,
+      "title": "Sex Workers Support Casino Workers",
+      "scope_id": 1333,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "EncoreSupport"
+      ],
+      "campaign_tags": [
+        "Labor"
+      ],
+      "event_sessions": [
+        {
+          "id": 118671,
+          "mobilize_event_id": 38995,
+          "start_time": "2026-10-03T17:00:00.000-07:00",
+          "end_time": "2026-10-03T20:00:00.000-07:00",
+          "title": "Sex Workers Support Casino Workers",
+          "created_at": "2026-09-30T18:10:19.227-07:00",
+          "updated_at": "2026-10-01T18:25:50.873-07:00",
+          "location_name": "Encore Boston Harbor",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "1",
+                "short_name": "1",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Broadway",
+                "short_name": "Broadway",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Everett",
+                "short_name": "Everett",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Middlesex County",
+                "short_name": "Middlesex County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02149",
+                "short_name": "02149",
+                "types": [
+                  "postal_code"
+                ]
+              },
+              {
+                "long_name": "2432",
+                "short_name": "2432",
+                "types": [
+                  "postal_code_suffix"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.3951496,
+              "lng": -71.0680715
+            },
+            "address_city": "Everett",
+            "full_address": "1 Broadway, Everett, MA 02149, USA",
+            "address_state": "MA",
+            "address_line_1": "1 Broadway",
+            "address_country": "US",
+            "address_postal_code": "02149"
+          },
+          "lonlat": "POINT (-71.0680715 42.3951496)",
+          "location_address": "1 Broadway, Everett, MA 02149, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "EncoreSupport",
+            "BSWAC"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/T2tO28stVliCtsyN1YGs9E2_pWhl8rkYEcKqSddhnfc",
+          "primary_session_id": 118671,
+          "city_state_label": "Everett, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/sex-workers-support-casino-workers",
+      "event_page_id": 36336,
+      "image_url": "https://s3.amazonaws.com/solidarity.tech/image_uploads/images/000/062/171/original/RackMultipart20261001-166-9pkc15.png?1790817112",
+      "description": "Boston Sex Workers and Allies Collective is showing up for striking workers at Encore Casino! Join BSWAC and BDSA on the line with Teamsters Local 25 and Unite Here Local 26.\nWorkers at Encore are on strike until they get a fair contract. Wynn Casinos makes $2 million dollars a day at Encore, but when workers demanded a ten dollar raise the company offered fifteen cents. Workers in both unions are striking together, picketing 24 hours a day until they get what they deserve.\nSex workers and allies are showing solidarity by coming out to do some late night picketing. Boston DSA will be there to support all the workers!\n\nLearn more about the strike here:\nhttps://www.local26.org/encore/\n\nLearn more about BSWAC here:\nhttps://bswac.org/\n",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 38995,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-09-30T18:10:19.174-07:00"
+    },
+    {
+      "id": 38385,
+      "title": "Labor Circle",
+      "scope_id": 1333,
+      "scope_type": "Chapter",
+      "event_type": "in_person",
+      "location_name": null,
+      "location_data": null,
+      "tags": [
+        "Labor Circle"
+      ],
+      "campaign_tags": [
+        "Labor"
+      ],
+      "event_sessions": [
+        {
+          "id": 118929,
+          "mobilize_event_id": 38385,
+          "start_time": "2026-11-04T15:30:00.000-08:00",
+          "end_time": "2026-11-04T17:30:00.000-08:00",
+          "title": "Monthly Labor Circle",
+          "created_at": "2026-10-01T09:52:08.475-07:00",
+          "updated_at": "2026-10-01T09:52:08.492-07:00",
+          "location_name": "Community Church of Boston",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "565",
+                "short_name": "565",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Boylston Street",
+                "short_name": "Boylston St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Back Bay",
+                "short_name": "Back Bay",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Boston",
+                "short_name": "Boston",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Suffolk County",
+                "short_name": "Suffolk County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02116",
+                "short_name": "02116",
+                "types": [
+                  "postal_code"
+                ]
+              },
+              {
+                "long_name": "5111",
+                "short_name": "5111",
+                "types": [
+                  "postal_code_suffix"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.350683,
+              "lng": -71.0763563
+            },
+            "address_city": "Boston",
+            "full_address": "565 Boylston St, Boston, MA 02116, USA",
+            "address_state": "MA",
+            "address_line_1": "565 Boylston Street",
+            "address_country": "US",
+            "address_postal_code": "02116"
+          },
+          "lonlat": "POINT (-71.0763563 42.350683)",
+          "location_address": "565 Boylston St, Boston, MA 02116, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": true,
+          "max_capacity": 0,
+          "note": null,
+          "tags": [],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": "60fefed3abd4b9f3",
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 0,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/QQ5x14OzmjNxr1DJ_HAEk6iRvqYtn2yOEn5vOfEXMQY",
+          "primary_session_id": 118929,
+          "city_state_label": "Boston, MA"
+        },
+        {
+          "id": 117223,
+          "mobilize_event_id": 38385,
+          "start_time": "2026-10-07T15:30:00.000-07:00",
+          "end_time": "2026-10-07T17:30:00.000-07:00",
+          "title": "Labor Circle",
+          "created_at": "2026-09-28T18:32:39.799-07:00",
+          "updated_at": "2026-09-28T18:36:16.313-07:00",
+          "location_name": "Community Church of Boston",
+          "location_data": {
+            "components": [
+              {
+                "long_name": "565",
+                "short_name": "565",
+                "types": [
+                  "street_number"
+                ]
+              },
+              {
+                "long_name": "Boylston Street",
+                "short_name": "Boylston St",
+                "types": [
+                  "route"
+                ]
+              },
+              {
+                "long_name": "Back Bay",
+                "short_name": "Back Bay",
+                "types": [
+                  "neighborhood",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Boston",
+                "short_name": "Boston",
+                "types": [
+                  "locality",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Suffolk County",
+                "short_name": "Suffolk County",
+                "types": [
+                  "administrative_area_level_2",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "Massachusetts",
+                "short_name": "MA",
+                "types": [
+                  "administrative_area_level_1",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "United States",
+                "short_name": "US",
+                "types": [
+                  "country",
+                  "political"
+                ]
+              },
+              {
+                "long_name": "02116",
+                "short_name": "02116",
+                "types": [
+                  "postal_code"
+                ]
+              },
+              {
+                "long_name": "5111",
+                "short_name": "5111",
+                "types": [
+                  "postal_code_suffix"
+                ]
+              }
+            ],
+            "coordinates": {
+              "lat": 42.350683,
+              "lng": -71.0763563
+            },
+            "address_city": "Boston",
+            "full_address": "565 Boylston St, Boston, MA 02116, USA",
+            "address_state": "MA",
+            "address_line_1": "565 Boylston Street",
+            "address_country": "US",
+            "address_postal_code": "02116"
+          },
+          "lonlat": "POINT (-71.0763563 42.350683)",
+          "location_address": "565 Boylston St, Boston, MA 02116, USA",
+          "show_rsvp_bar": true,
+          "show_title_in_form": false,
+          "max_capacity": 0,
+          "note": "",
+          "tags": [
+            "Labor Circle"
+          ],
+          "zoom_account_id": null,
+          "zoom_meeting_id": null,
+          "zoom_meeting_data": null,
+          "zoom_join_before_host": false,
+          "zoom_attendance_synced_at": null,
+          "source_calendar_item_id": null,
+          "event_type": "in_person",
+          "paired_meci_id": null,
+          "recurring_schedule_id": null,
+          "mobilize_event_task_id": null,
+          "host_user_ids": [],
+          "rsvp_count": 1,
+          "attendance_count": 0,
+          "host_tools_url": "https://www.solidarity.tech/h/vNi5jJHg11RZ55rzDL1QIPdagTKoOI2RuyTxp-f9usA",
+          "primary_session_id": 117223,
+          "city_state_label": "Boston, MA"
+        }
+      ],
+      "event_page_url": "https://bostondsa.solidarity.tech/labor-circle",
+      "event_page_id": 35872,
+      "image_url": null,
+      "description": "The Labor Circle is a monthly discussion-based meeting for those of us who are organizing our workplaces or are interested in doing so. We welcome both workers trying to start a new unions and union members doing rank and file organizing. Come share your struggles and successes in bringing your coworkers to action and provide and be provided guidance and support. There is no agenda, although experienced organizers will be present to help facilitate discussion as needed.\nNo one turned away for lack of experience!",
+      "hide_address_until_rsvp": false,
+      "show_in_web_calendars": true,
+      "accessibility_info": null,
+      "waitlist_enabled": false,
+      "automation_status": {
+        "rsvp_confirmation_email": true,
+        "rsvp_confirmation_text": false,
+        "day_before_email_reminder": true,
+        "day_before_text_reminder": false,
+        "day_of_email_reminder": false,
+        "day_of_text_reminder": true,
+        "ten_min_before_text_reminder": false,
+        "post_event_survey_email": false,
+        "post_event_survey_text": false
+      },
+      "primary_event_id": 38385,
+      "is_co_hosted_mirror": false,
+      "internal_co_host_chapters": [],
+      "created_at": "2026-09-28T18:32:39.746-07:00"
+    }
+  ],
+  "meta": {
+    "total_count": 72,
+    "limit": 20,
+    "offset": 0
+  }
+}
