@@ -27,13 +27,19 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::123456789012:role/github-actions-secrets-role # <-- YOUR IAM ROLE ARN
+          role-to-assume: arn:aws:iam::715992480927:role/github-actions-secrets-role
           aws-region: us-east-1
 
-      - name: Fetch Secrets from AWS Secrets Manager
+      - name: Fetch ActionNetwork Secrets
         uses: aws-actions/aws-secretsmanager-get-secrets@v2
         with:
-          secret-id: prod/actionnetwork-sync-secrets # <-- YOUR SECRET NAME IN AWS
+          secret-id: actionnetwork/production
+          parse-json-secrets: true
+
+      - name: Fetch Airtable Secrets
+        uses: aws-actions/aws-secretsmanager-get-secrets@v2
+        with:
+          secret-id: airtable/production
           parse-json-secrets: true
 
       - name: Install dependencies
