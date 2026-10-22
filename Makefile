@@ -1,5 +1,5 @@
 FUNCTIONS := alarm sync
-REPO      := boston-dsa/facebook-gcal-sync
+REPO      := boston-dsa/actionnetwork-gcal-sync
 STAGES    := lock zip plan
 PACKAGES  := $(foreach FUNC,$(FUNCTIONS),dist/$(FUNC).zip)
 PYTHON    := $(shell cat .python-version | cut -d'.' -f1,2)
