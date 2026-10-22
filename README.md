@@ -48,3 +48,13 @@ Apply changes
 ```bash
 make apply
 ```
+
+## Run tests
+
+```bash
+pytest --ignore test/actionnetwork_test.py
+```
+or for a single file
+```bash
+pytest test/event_connectors/test_airtable.py
+```
