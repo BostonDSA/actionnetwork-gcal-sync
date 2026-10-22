@@ -1,0 +1,80 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+
+# Required for OIDC token generation to authenticate with AWS
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::123456789012:role/github-actions-secrets-role # <-- YOUR IAM ROLE ARN
+          aws-region: us-east-1
+
+      - name: Fetch Secrets from AWS Secrets Manager
+        uses: aws-actions/aws-secretsmanager-get-secrets@v2
+        with:
+          secret-id: prod/actionnetwork-sync-secrets # <-- YOUR SECRET NAME IN AWS
+          parse-json-secrets: true
+
+      - name: Install dependencies
+        run: make
+
+      - name: Run validation / plan
+        env:
+          AWS_ROLE_ARN: ${{ env.PROD_ACTIONNETWORK_SYNC_SECRETS_AWS_ROLE_ARN }}
+          AWS_DEFAULT_REGION: us-east-1
+        run: make plan
+
+  deploy:
+    needs: build-and-test
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::123456789012:role/github-actions-secrets-role
+          aws-region: us-east-1
+
+      - name: Fetch Secrets from AWS Secrets Manager
+        uses: aws-actions/aws-secretsmanager-get-secrets@v2
+        with:
+          secret-id: prod/actionnetwork-sync-secrets
+          parse-json-secrets: true
+
+      - name: Install dependencies
+        run: make
+
+      - name: Deploy infrastructure
+        env:
+          AWS_ROLE_ARN: ${{ env.PROD_ACTIONNETWORK_SYNC_SECRETS_AWS_ROLE_ARN }}
+          AWS_DEFAULT_REGION: us-east-1
+        run: make apply
