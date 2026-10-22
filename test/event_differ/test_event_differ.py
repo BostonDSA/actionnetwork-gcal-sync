@@ -1,4 +1,6 @@
-from event_models import EventDiffer, AirtableEvent, ActionNetworkEvent
+from event_differ import EventDiffer
+from event_models import AirtableEvent, ActionNetworkEvent
+
 
 EMPTY_AN_LOCATION = {
     "address_lines": [],

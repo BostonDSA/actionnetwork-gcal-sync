@@ -1,3 +1,2 @@
-from .events import ActionNetworkEvent
-from .events import AirtableEvent
-from .events import EventDiffer
+from .airtable_event import AirtableEvent
+from .actionnetwork_event import ActionNetworkEvent

@@ -51,7 +51,10 @@ make apply
 
 ## Run tests
 
-Example:
 ```bash
-PYTHONPATH=src pytest -s test/event_connectors/test_actionnetwork.py
+pytest --ignore test/actionnetwork_test.py
+```
+or for a single file
+```bash
+pytest test/event_connectors/test_airtable.py
 ```

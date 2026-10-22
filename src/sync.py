@@ -10,7 +10,7 @@ import boto3
 
 from event_connectors.actionnetwork import ActionNetwork
 from event_connectors.airtable import Airtable
-from event_models.events import EventDiffer
+from event_differ import EventDiffer
 
 SLACK_CHANNEL = os.environ['SLACK_CHANNEL']
 SLACK_FOOTER_URL = os.environ['SLACK_FOOTER_URL']
