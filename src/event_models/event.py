@@ -71,17 +71,21 @@ class Event(ABC):
         return setattr(self, self.PRIMARY_ID_NAME, value)
 
     def lookup(self, *keys):
-        """A null-safe lookup to find nested attributes in the raw event.
+        """A null-safe lookup to find nested attributes in dicts or lists in the raw event.
 
-        :params str keys: keys indicating a location to look up in the raw
-            event. Each successive key will index into a nested dictionary.
-        :return: The value at the given location, or None if no such value
-            exists or if the key at any intermediary stage does not exist.
+        :params str|int keys: keys or indices indicating a location to look up.
+        :return: The value at the given location, or None if no such value exists.
         """
         value = self.raw
         for key in keys:
             if isinstance(value, dict):
                 value = value.get(key)
+            elif isinstance(value, (list, tuple)) and isinstance(key, int):
+                try:
+                    value = value[key]
+                except IndexError:
+                    value = None
+                    break
             else:
                 value = None
                 break

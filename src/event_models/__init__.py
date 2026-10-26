@@ -1,2 +1,3 @@
 from .airtable_event import AirtableEvent
 from .actionnetwork_event import ActionNetworkEvent
+from .solidaritytech_event import SolidarityTechEvent
