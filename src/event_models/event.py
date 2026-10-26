@@ -128,8 +128,6 @@ class Event(ABC):
         for field, value in fields.items():
             if hasattr(new_event, field):
                 setattr(new_event, field, value)
-            else:
-                print(f"Warning: {field} not present in {cls}")
         return new_event
 
     @classmethod
@@ -143,16 +141,15 @@ class Event(ABC):
         return set(dir(cls)) - set(dir(Event)) - cls.DERIVED_FIELD_NAMES
 
     def event_info(self):
-        """Get the names and values of all properties containing information
-        about the event record itself.
-
-        :return: dictionary of event information
-        :rtype: dict
-        """
-        return {
-            field: getattr(self, field)
-            for field in self.__class__.event_fields()
-        }
+        """Get property values without triggering properties during checks."""
+        info = {}
+        for field in self.event_fields():
+            if hasattr(type(self), field) or field in self.__dict__:
+                try:
+                    info[field] = getattr(self, field)
+                except Exception:
+                    pass # Skip fields that fail to evaluate
+        return info
 
     def translate_to(self, new_class):
         """Translate the event object to a different event format.

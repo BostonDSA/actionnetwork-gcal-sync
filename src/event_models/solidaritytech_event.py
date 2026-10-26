@@ -17,6 +17,11 @@ class SolidarityTechEvent(Event):
 
     PRIMARY_ID_NAME = 'primary_session_id'
 
+    # this handles the translation to Airtable without changing the schema there
+    @property
+    def actionnetwork_id(self):
+        return self.primary_session_id
+
     @property
     def primary_session_id(self):
         """
@@ -31,9 +36,13 @@ class SolidarityTechEvent(Event):
         """
         Returns the id of the ST event that is a parent of this session
         """
-        return self.lookup('parent_id') # on the event?
+        return self.lookup('parent_id')
 
-    # also on the higher event
+    # this handles the translation to Airtable without changing the schema there
+    @property
+    def actionnetwork_link(self):
+        return self.event_page_url
+
     @property
     def event_page_url(self):
         return self.lookup('event_page_url')
@@ -50,6 +59,10 @@ class SolidarityTechEvent(Event):
     @property
     def title(self):
         return self.lookup('title')
+
+    @property
+    def description(self):
+        return self.lookup('description')
 
     # this is on the higher level event as well, doesn't neccessary cascade down
     @property
@@ -116,8 +129,6 @@ class SolidarityTechEvent(Event):
     def event_type(self):
         return self.lookup('event_type')
 
-    @event_type.setter
-    def event_type(self, event_type):
-        return self.set(event_type, 'event_type')
-
-    
+    @property
+    def removed(self):
+        return False
