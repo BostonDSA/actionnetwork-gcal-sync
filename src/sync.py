@@ -34,6 +34,15 @@ if not AIRTABLE_PERSONAL_ACCESS_TOKEN and not AIRTABLE_BASE_ID:
     AIRTABLE_BASE_ID = secret['base_id']
 
 
+SOLIDARITY_TECH_ACCESS_TOKEN = os.environ.get('SOLIDARITY_TECH_ACCESS_TOKEN')
+if not SOLIDARITY_TECH_ACCESS_TOKEN:
+    secret_id = os.environ['SOLIDARITY_TECH_SECRET_ID']
+    raw_secret = SECRETSMANAGER.get_secret_value(SecretId=secret_id)
+    # Adjust key depending on whether your secret is stored as plain string or JSON dictionary
+    try:
+        secret = json.loads(raw_secret['SecretString'])
+        SOLIDARITY_TECH_ACCESS_TOKEN = secret['access_token']
+
 # This is a dumb hack because I'm reusing the actionnetwork_id in Airtable for Solidarity Tech events. This allows the calendar to "just work"
 def is_integer_string(value) -> bool:
     """Helper to check if an ID can be coerced to an integer (SolidarityTech format)."""
@@ -104,7 +113,7 @@ def handle_st_events(event, *_):
     dryrun = event.get('dryrun') or False
     verbose = event.get('verbose') or False
 
-    st = SolidarityTech(os.environ['SOLIDARITY_TECH_ACCESS_TOKEN'])
+    st = SolidarityTech(SOLIDARITY_TECH_ACCESS_TOKEN)
 
     max_events = event.get('max_events')
     if max_events is None:
@@ -155,6 +164,19 @@ def handle_st_events(event, *_):
             ]
             airtable.table.batch_update(removed_records)
             print(f"Successfully marked {len(missing_ids)} deleted SolidarityTech events as removed.")
+
+
+def handler(event, context):
+    """Entry point for AWS Lambda execution."""
+    run_st = event.get('st', True)
+    run_an = event.get('an', True)
+
+    if run_st:
+        handle_st_events(event)
+    if run_an:
+        handle_an_events(event)
+
+    return {"statusCode": 200, "body": "Sync completed successfully"}
 
 
 if __name__ == '__main__':
