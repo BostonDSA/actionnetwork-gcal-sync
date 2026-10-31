@@ -67,14 +67,33 @@ class EventDiffer():
             )
         return unique_types.pop()
 
+    @staticmethod
+    def _is_integer_coercible(value) -> bool:
+        """Check if an ID can be coerced to an integer (SolidarityTech format)."""
+        if value is None:
+            return False
+        try:
+            int(str(value))
+            return True
+        except (ValueError, TypeError):
+            return False
+
     def _events_by_common_id(self, events):
-        return {
-            getattr(e, self.common_id_name): e
-            for e in events
-            # Ignore events with no common ID value
-            # (such as events entered manually into the destination system)
-            if getattr(e, self.common_id_name) is not None
-        }
+        events_map = {}
+        for e in events:
+            common_id = getattr(e, self.common_id_name, None)
+            if common_id is None:
+                continue
+            
+            # TODO: this is a dumb way to do this
+            # Ignore Solidarity Tech events (which have integer-coercible IDs) 
+            # since Action Network IDs are always non-integer strings.
+            if self._is_integer_coercible(common_id):
+                continue
+
+            events_map[common_id] = e
+            
+        return events_map
 
     def match_events(self):
         """Match up events across the source and destination systems and
