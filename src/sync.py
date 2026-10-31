@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import traceback
 import urllib
 from datetime import date
 from datetime import datetime
@@ -32,6 +33,17 @@ if not AIRTABLE_PERSONAL_ACCESS_TOKEN and not AIRTABLE_BASE_ID:
     AIRTABLE_PERSONAL_ACCESS_TOKEN = secret['personal_access_token']
     AIRTABLE_BASE_ID = secret['base_id']
 
+
+# This is a dumb hack because I'm reusing the actionnetwork_id in Airtable for Solidarity Tech events. This allows the calendar to "just work"
+def is_integer_string(value) -> bool:
+    """Helper to check if an ID can be coerced to an integer (SolidarityTech format)."""
+    if value is None:
+        return False
+    try:
+        int(str(value))
+        return True
+    except (ValueError, TypeError):
+        return False
 
 def event_time(time):
     try:
@@ -98,20 +110,51 @@ def handle_st_events(event, *_):
     if max_events is None:
         max_events = 25 if dryrun else None
 
-    generator = st.translate_events(max_events, verbose)
+    # 1. Fully consume the generator into a list and collect incoming IDs
+    generator = st.translate_events(max_events=max_events, verbose=verbose)
+    incoming_events = [item.translate_to(AirtableEvent) for item in generator]
+    
+    incoming_ids = {
+        str(e.raw.get("fields", {}).get("actionnetwork_id"))
+        for e in incoming_events
+        if is_integer_string(e.raw.get("fields", {}).get("actionnetwork_id"))
+    }
 
-    airtable_events = (event.translate_to(AirtableEvent) for event in generator)
+    # 2. Fetch existing records from Airtable (pulling just the ID field)
+    airtable = Airtable(AIRTABLE_PERSONAL_ACCESS_TOKEN, AIRTABLE_BASE_ID)
+    all_airtable_records = airtable.all(fields=["actionnetwork_id"])
+    
+    # 3. Filter existing records to ONLY include SolidarityTech (integer-coercible IDs)
+    existing_id_to_record_id = {}
+    for record in all_airtable_records:
+        fields = record.get("fields", {})
+        an_id = fields.get("actionnetwork_id")
+        if is_integer_string(an_id):
+            existing_id_to_record_id[str(an_id)] = record["id"]
 
+    # 4. Find missing IDs (events deleted from SolidarityTech)
+    missing_ids = set(existing_id_to_record_id.keys()) - incoming_ids
+
+    if verbose:
+        print(f"[DEBUG] Total incoming ST events collected: {len(incoming_events)}")
+        print(f"[DEBUG] Total matching ST records in Airtable: {len(existing_id_to_record_id)}")
+        print(f"[DEBUG] Events to delete/mark removed: {len(missing_ids)}")
+
+    # 5. Handle Dryrun vs Live execution
     if dryrun:
-        print(f"\n--- [DRYRUN MODE] Simulating Airtable Upsert ---")
-        count = 0
-        for item in airtable_events:
-            count += 1
-            print(f"[DRYRUN] Prepared Airtable Event #{count}: {item.raw}")
-        print(f"--- [DRYRUN COMPLETE] Successfully simulated {count} records ---\n")
+        print(f"\n--- [DRYRUN MODE] Simulating SolidarityTech Sync ---")
+        print(f"Would Upsert: {len(incoming_events)} events")
+        print(f"Would Remove/Delete: {len(missing_ids)} events")
+        print(f"--- [DRYRUN COMPLETE] ---\n")
     else:
-        airtable = Airtable(AIRTABLE_PERSONAL_ACCESS_TOKEN, AIRTABLE_BASE_ID)
-        airtable.upsert_events(airtable_events)
+        airtable.upsert_events(incoming_events)
+        if missing_ids:
+            removed_records = [
+                {"id": existing_id_to_record_id[mid], "fields": {"removed": True}} 
+                for mid in missing_ids
+            ]
+            airtable.table.batch_update(removed_records)
+            print(f"Successfully marked {len(missing_ids)} deleted SolidarityTech events as removed.")
 
 
 if __name__ == '__main__':

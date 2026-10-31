@@ -20,7 +20,7 @@ class SolidarityTechEvent(Event):
     # this handles the translation to Airtable without changing the schema there
     @property
     def actionnetwork_id(self):
-        return f"self.primary_session_id"
+        return str(self.primary_session_id)
 
     @property
     def primary_session_id(self):
