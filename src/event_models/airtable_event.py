@@ -57,7 +57,7 @@ class AirtableEvent(Event):
         # Airtable forums state that long text fields can store up to 100,000
         # characters. Some of our ActionNetwork descriptions exceed this
         # (primarily due to embedded images). For now, simply truncate to fit
-        airtable_desc = description[0:50000]
+        airtable_desc = (description or "")[0:50000]
         self.set(airtable_desc, 'fields', 'Description')
 
     @property

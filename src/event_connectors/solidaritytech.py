@@ -35,27 +35,53 @@ class SolidarityTech():
             return []
 
 
-    def fetch_events(self) -> Iterator[dict[str, any]]:
+    def fetch_events(self, max_events: int | None = None, verbose: bool = False) -> Iterator[dict[str, any]]:
         """
-        A generator that yields SolidarityTech events by page from the API
+        A generator that yields SolidarityTech events by page from the API.
+        
+        :param max_events: Optional limit on the total number of events to yield (for testing).
+        :param verbose: If True, prints step-by-step progress to the console.
         """
         session = requests.Session()
         session.headers.update(self._headers)
         
         offset = 0
         limit = 100 # max allowed by the API
+        fetched_count = 0
+        
         while True:
+            if verbose:
+                print(f"[DEBUG] Fetching page: offset={offset}, limit={limit}")
+                
             items = self._fetch_page(session, offset, limit)
             
-            # If the page is empty (or an error occurred returning []), stop the generator
+            # If the page is empty, stop the generator
             if not items:
+                if verbose:
+                    print("[DEBUG] Received empty page. Stopping fetch.")
                 break
             
+            if verbose:
+                print(f"[DEBUG] Fetched {len(items)} items on this page.")
+            
             for item in items:
-                yield item
+                if verbose:
+                    title = item.get('title')
+                    print(f"[DEBUG] Yielding event (Title: {title}) - Total yielded so far: {fetched_count + 1}")
                 
+                yield item
+                fetched_count += 1
+                
+                # Stop early if we've reached the maximum requested events
+                if max_events is not None and fetched_count >= max_events:
+                    if verbose:
+                        print(f"[DEBUG] Reached max_events limit of {max_events}. Stopping.")
+                    return
+            
             # We've reached the last page
             if len(items) < limit:
+                if verbose:
+                    print("[DEBUG] Last page reached (fewer items than limit). Stopping.")
                 break
             
             offset += limit
@@ -99,7 +125,7 @@ class SolidarityTech():
                 processed_ids.add(session_id)
                 processed_ids.add(paired_id)
                 
-                hybrid_event_info = merge_paired_sessions(session, partner_session)
+                hybrid_event_info = self.merge_paired_sessions(session, partner_session)
                 
                 combined_events.append(SolidarityTechEvent({**hybrid_event_info, **shared_info}))
 
@@ -128,8 +154,8 @@ class SolidarityTech():
         return merged
 
 
-    def translate_events(self) -> Iterator[SolidarityTechEvent]:
-        api_gen = self.fetch_events()
+    def translate_events(self, max_events: int | None = None, verbose: bool = False) -> Iterator[SolidarityTechEvent]:
+        api_gen = self.fetch_events(max_events=max_events, verbose=verbose)
         for raw_event in api_gen:
             translated_events_list = SolidarityTech._translate_event(raw_event)
             yield from translated_events_list
