@@ -71,17 +71,21 @@ class Event(ABC):
         return setattr(self, self.PRIMARY_ID_NAME, value)
 
     def lookup(self, *keys):
-        """A null-safe lookup to find nested attributes in the raw event.
+        """A null-safe lookup to find nested attributes in dicts or lists in the raw event.
 
-        :params str keys: keys indicating a location to look up in the raw
-            event. Each successive key will index into a nested dictionary.
-        :return: The value at the given location, or None if no such value
-            exists or if the key at any intermediary stage does not exist.
+        :params str|int keys: keys or indices indicating a location to look up.
+        :return: The value at the given location, or None if no such value exists.
         """
         value = self.raw
         for key in keys:
             if isinstance(value, dict):
                 value = value.get(key)
+            elif isinstance(value, (list, tuple)) and isinstance(key, int):
+                try:
+                    value = value[key]
+                except IndexError:
+                    value = None
+                    break
             else:
                 value = None
                 break
@@ -124,8 +128,6 @@ class Event(ABC):
         for field, value in fields.items():
             if hasattr(new_event, field):
                 setattr(new_event, field, value)
-            else:
-                print(f"Warning: {field} not present in {cls}")
         return new_event
 
     @classmethod
@@ -139,16 +141,15 @@ class Event(ABC):
         return set(dir(cls)) - set(dir(Event)) - cls.DERIVED_FIELD_NAMES
 
     def event_info(self):
-        """Get the names and values of all properties containing information
-        about the event record itself.
-
-        :return: dictionary of event information
-        :rtype: dict
-        """
-        return {
-            field: getattr(self, field)
-            for field in self.__class__.event_fields()
-        }
+        """Get property values without triggering properties during checks."""
+        info = {}
+        for field in self.event_fields():
+            if hasattr(type(self), field) or field in self.__dict__:
+                try:
+                    info[field] = getattr(self, field)
+                except Exception:
+                    pass # Skip fields that fail to evaluate
+        return info
 
     def translate_to(self, new_class):
         """Translate the event object to a different event format.

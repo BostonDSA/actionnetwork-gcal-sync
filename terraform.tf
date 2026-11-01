@@ -80,6 +80,7 @@ data "aws_iam_policy_document" "inline" {
     resources = [
       data.aws_secretsmanager_secret.action_network.arn,
       data.aws_secretsmanager_secret.airtable.arn,
+      data.aws_secretsmanager_secret.solidarity_tech.arn
     ]
   }
 
@@ -120,6 +121,10 @@ data "aws_secretsmanager_secret" "airtable" {
 
 data "aws_sns_topic" "socialismbot" {
   name = "slack-socialismbot"
+}
+
+data "aws_secretsmanager_secret" "solidarity_tech" {
+  name = "solidaritytech/production"
 }
 
 resource "aws_iam_role" "role" {
@@ -178,6 +183,7 @@ resource "aws_lambda_function" "sync" {
       SLACK_TOPIC_ARN          = data.aws_sns_topic.socialismbot.arn
       ACTION_NETWORK_SECRET_ID = data.aws_secretsmanager_secret.action_network.name
       AIRTABLE_SECRET_ID       = data.aws_secretsmanager_secret.airtable.name
+      SOLIDARITY_TECH_SECRET_ID  = data.aws_secretsmanager_secret.solidarity_tech.name
     }
   }
 }

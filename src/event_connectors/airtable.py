@@ -1,4 +1,6 @@
 import pyairtable
+
+from collections.abc import Iterable
 from event_models import AirtableEvent
 
 TABLE_NAME = "Events"
@@ -22,3 +24,6 @@ class Airtable(pyairtable.Table):
 
     def update_events(self, events_to_update: list[AirtableEvent]):
         self.batch_update([event.raw for event in events_to_update])
+
+    def upsert_events(self, events_to_upsert: Iterable[AirtableEvent]):
+        self.batch_upsert((event.raw for event in events_to_upsert), key_fields=["actionnetwork_id"])

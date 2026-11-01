@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import traceback
 import urllib
 from datetime import date
 from datetime import datetime
@@ -10,15 +11,12 @@ import boto3
 
 from event_connectors.actionnetwork import ActionNetwork
 from event_connectors.airtable import Airtable
+from event_connectors import SolidarityTech
+from event_models import AirtableEvent
 from event_differ import EventDiffer
 
-SLACK_CHANNEL = os.environ['SLACK_CHANNEL']
-SLACK_FOOTER_URL = os.environ['SLACK_FOOTER_URL']
-SLACK_TOPIC_ARN = os.environ['SLACK_TOPIC_ARN']
-
 # AWS Clients
-SECRETSMANAGER = boto3.client('secretsmanager')
-SNS = boto3.client('sns')
+SECRETSMANAGER = boto3.client('secretsmanager', region_name='us-east-1')
 
 ACTION_NETWORK_GROUP_KEY_MAP = os.environ.get('ACTION_NETWORK_GROUP_KEY_MAP')
 if not ACTION_NETWORK_GROUP_KEY_MAP:
@@ -35,114 +33,40 @@ if not AIRTABLE_PERSONAL_ACCESS_TOKEN and not AIRTABLE_BASE_ID:
     AIRTABLE_PERSONAL_ACCESS_TOKEN = secret['personal_access_token']
     AIRTABLE_BASE_ID = secret['base_id']
 
+
+SOLIDARITY_TECH_ACCESS_TOKEN = os.environ.get('SOLIDARITY_TECH_ACCESS_TOKEN')
+if not SOLIDARITY_TECH_ACCESS_TOKEN:
+    secret_id = os.environ['SOLIDARITY_TECH_SECRET_ID']
+    raw_secret = SECRETSMANAGER.get_secret_value(SecretId=secret_id)
+    # Adjust key depending on whether your secret is stored as plain string or JSON dictionary
+    try:
+        secret = json.loads(raw_secret['SecretString'])
+        SOLIDARITY_TECH_ACCESS_TOKEN = secret['access_token']
+
+# This is a dumb hack because I'm reusing the actionnetwork_id in Airtable for Solidarity Tech events. This allows the calendar to "just work"
+def is_integer_string(value) -> bool:
+    """Helper to check if an ID can be coerced to an integer (SolidarityTech format)."""
+    if value is None:
+        return False
+    try:
+        int(str(value))
+        return True
+    except (ValueError, TypeError):
+        return False
+
 def event_time(time):
     try:
         return datetime.strptime(time['dateTime'], '%Y-%m-%dT%H:%M:%S%z')
     except KeyError:
         return datetime.strptime(time['date'], '%Y-%m-%d').date()
 
-
-def event_to_attachment(event, color='good'):
-    htmlLink = event.get('htmlLink', 'https://calendar.google.com')
-    summary = event.get('summary', '(No summary)')
-    title = f'<{htmlLink}|{summary}>'
-    text = event_to_text(event)
-    attachment = {
-        'color': color,
-        'fallback': summary,
-        'mrkdwn_in': ['pretext'],
-        'text': text,
-        'title': title,
-    }
-    return attachment
-
-
-def event_to_text(event):
-    # Get event time(s)
-    start = event_time(event['start'])
-    end = event_time(event['end'])
-    if isinstance(start, datetime) and isinstance(end, datetime) \
-            and start.date() == end.date():
-        start = start.strftime('%b %-d from %-I:%M%p').lower().capitalize()
-        end = end.strftime('%-I:%M%p').lower()
-        text = f'{start} to {end}'
-    elif isinstance(start, date) and isinstance(end, date) and start == end:
-        start = start.strftime('%b %-d')
-        text = f'{start}'
-    elif start.year == end.year:
-        start = start.strftime('%b %-d')
-        end = end.strftime('%b %-d')
-        text = f'{start} through {end}'
-    else:
-        start = start.strftime('%b %-d, %Y')
-        end = end.strftime('%b %-d, %Y')
-        text = f'{start} through {end}'
-
-    # Get event location
-    loc = event.get('location')
-    if loc:
-        mapsloc = urllib.parse.quote(loc)
-        text += f' at <https://maps.google.com/maps?q={mapsloc}|{loc}>'
-
-    return text
-
-
-def slack_footer(user=None):
-    footer = urllib.parse.urlparse(SLACK_FOOTER_URL).path.strip('/')
-    footer = f'<{SLACK_FOOTER_URL}|{footer}>'
-    if user:
-        footer += f' | Posted by <@{user}>'
-    return {'footer': footer}
-
-
-def slack_message(results, channel=None, user=None):
-    post = results.get('POST', {})
-    put = results.get('PUT', {})
-    delete = results.get('DELETE', {})
-    created = [event_to_attachment(x, 'good') for x in post.values()]
-    updated = [event_to_attachment(x, 'warning') for x in put.values()]
-    deleted = [event_to_attachment(x, 'danger') for x in delete.values()]
-    created_count = len(created)
-    updated_count = len(updated)
-    deleted_count = len(deleted)
-    if created_count > 1:
-        created[0]['pretext'] = \
-            f'Added *{created_count}* facebook events to Google Calendar.'
-    elif created_count == 1:
-        created[0]['pretext'] = 'Added *1* facebook event to Google Calendar.'
-    if updated_count > 1:
-        updated[0]['pretext'] = \
-            f'Updated *{updated_count}* facebook events on Google Calendar.'
-    elif updated_count == 1:
-        updated[0]['pretext'] = \
-            'Updated *1* facebook event on Google Calendar.'
-    if deleted_count > 1:
-        deleted[0]['pretext'] = \
-            f'Removed *{deleted_count}* facebook events from Google Calendar '\
-            f'because the original facebook events no longer exist.'
-    elif deleted_count == 1:
-        deleted[0]['pretext'] = \
-            f'Removed *1* facebook event from Google Calendar '\
-            f'because the original facebook event no longer exists.'
-    attachments = created + updated + deleted
-    if any(attachments):
-        attachments[-1].update(slack_footer(user))
-    message = {
-        'channel': channel,
-        'attachments': attachments,
-    }
-    return message
-
-
-def handler(event, *_):
+def handle_an_events(event, *_):
     # Log Event
     print(f'EVENT {json.dumps(event)}')
 
     # Get args from event
     event = event or {}
-    channel = event.get('channel') or SLACK_CHANNEL
     dryrun = event.get('dryrun') or False
-    user = event.get('user')
     verbose = event.get('verbose') or False
 
     actionnetwork_events = []
@@ -185,17 +109,119 @@ def handler(event, *_):
         # Cancelled events are marked removed in Airtable by updating them
         airtable.update_events(changed_events + removed_events)
 
+def handle_st_events(event, *_):
+    dryrun = event.get('dryrun') or False
+    verbose = event.get('verbose') or False
+
+    st = SolidarityTech(SOLIDARITY_TECH_ACCESS_TOKEN)
+
+    max_events = event.get('max_events')
+    if max_events is None:
+        max_events = 25 if dryrun else None
+
+    # 1. Fully consume the generator into a list and collect incoming IDs
+    generator = st.translate_events(max_events=max_events, verbose=verbose)
+    incoming_events = [item.translate_to(AirtableEvent) for item in generator]
+    
+    incoming_ids = {
+        str(e.raw.get("fields", {}).get("actionnetwork_id"))
+        for e in incoming_events
+        if is_integer_string(e.raw.get("fields", {}).get("actionnetwork_id"))
+    }
+
+    # 2. Fetch existing records from Airtable (pulling just the ID field)
+    airtable = Airtable(AIRTABLE_PERSONAL_ACCESS_TOKEN, AIRTABLE_BASE_ID)
+    all_airtable_records = airtable.all(fields=["actionnetwork_id"])
+    
+    # 3. Filter existing records to ONLY include SolidarityTech (integer-coercible IDs)
+    existing_id_to_record_id = {}
+    for record in all_airtable_records:
+        fields = record.get("fields", {})
+        an_id = fields.get("actionnetwork_id")
+        if is_integer_string(an_id):
+            existing_id_to_record_id[str(an_id)] = record["id"]
+
+    # 4. Find missing IDs (events deleted from SolidarityTech)
+    missing_ids = set(existing_id_to_record_id.keys()) - incoming_ids
+
+    if verbose:
+        print(f"[DEBUG] Total incoming ST events collected: {len(incoming_events)}")
+        print(f"[DEBUG] Total matching ST records in Airtable: {len(existing_id_to_record_id)}")
+        print(f"[DEBUG] Events to delete/mark removed: {len(missing_ids)}")
+
+    # 5. Handle Dryrun vs Live execution
+    if dryrun:
+        print(f"\n--- [DRYRUN MODE] Simulating SolidarityTech Sync ---")
+        print(f"Would Upsert: {len(incoming_events)} events")
+        print(f"Would Remove/Delete: {len(missing_ids)} events")
+        print(f"--- [DRYRUN COMPLETE] ---\n")
+    else:
+        airtable.upsert_events(incoming_events)
+        if missing_ids:
+            removed_records = [
+                {"id": existing_id_to_record_id[mid], "fields": {"removed": True}} 
+                for mid in missing_ids
+            ]
+            airtable.table.batch_update(removed_records)
+            print(f"Successfully marked {len(missing_ids)} deleted SolidarityTech events as removed.")
+
+
+def handler(event, context):
+    """Entry point for AWS Lambda execution."""
+    run_st = event.get('st', True)
+    run_an = event.get('an', True)
+
+    if run_st:
+        handle_st_events(event)
+    if run_an:
+        handle_an_events(event)
+
+    return {"statusCode": 200, "body": "Sync completed successfully"}
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
-                    prog = 'ActionNetwork',
-                    description = 'Syncs events from ActionNetwork to Airtable')
-    parser.add_argument('-s', '--sync', action='store_true')
-    parser.add_argument('-v', '--verbose', action='store_true')
+        prog='EventSync',
+        description='Syncs events from external platforms (SolidarityTech, ActionNetwork) to Airtable'
+    )
+    
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument('--st', action='store_true', help='Run only SolidarityTech sync')
+    group.add_argument('--an', action='store_true', help='Run only ActionNetwork sync')
+    
+    parser.add_argument('-s', '--sync', action='store_true', help='Execute live sync (default is dry-run)')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Enable verbose logging')
+    parser.add_argument('--max-events', type=int, help='Limit maximum events fetched per source (for testing)')
+
     args = parser.parse_args()
 
-    handler({
+    event = {
         'dryrun': not args.sync,
         'verbose': args.verbose,
-        'user': 'U7P1MU20P',
-        'channel': 'GB1SLKKL7',
-    })
+    }
+    if args.max_events is not None:
+        event['max_events'] = args.max_events
+
+    run_st = args.st or (not args.st and not args.an)
+    run_an = args.an or (not args.st and not args.an)
+
+    if run_st:
+        if args.verbose:
+            print("=== Running SolidarityTech Sync ===")
+        try:
+            handle_st_events(event)
+        except Exception as e:
+            print(f"Error in SolidarityTech sync: {e}")
+            traceback.print_exc()
+
+    if run_an:
+        if args.verbose:
+            print("\n=== Running ActionNetwork Sync ===")
+        try:
+            handle_an_events(event)
+        except Exception as e:
+            print(f"Error in ActionNetwork sync: {e}")
+            traceback.print_exc()
+            
+    if args.verbose:
+        print("\n=== Sync Process Complete ===")
