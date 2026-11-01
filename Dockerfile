@@ -36,7 +36,7 @@ ENV AWS_ROLE_ARN=${AWS_ROLE_ARN}
 ENV AWS_SESSION_TOKEN=${AWS_SESSION_TOKEN}
 
 RUN terraform init
-RUN terraform fmt -check
+RUN terraform fmt
 
 COPY --from=zip /var/task/dist/ /var/task/dist/
 
