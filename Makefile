@@ -18,11 +18,11 @@ default: Pipfile.lock $(PACKAGES)
 .docker/%: | .docker
 	docker build \
 	--build-arg PYTHON=$(PYTHON) \
-	--build-arg AWS_ACCESS_KEY_ID \
-	--build-arg AWS_DEFAULT_REGION \
-	--build-arg AWS_SECRET_ACCESS_KEY \
-	--build-arg AWS_SESSION_TOKEN \
-	--build-arg AWS_ROLE_ARN \
+	--build-arg AWS_ACCESS_KEY_ID="$$AWS_ACCESS_KEY_ID" \
+	--build-arg AWS_DEFAULT_REGION="$$AWS_DEFAULT_REGION" \
+	--build-arg AWS_SECRET_ACCESS_KEY="$$AWS_SECRET_ACCESS_KEY" \
+	--build-arg AWS_SESSION_TOKEN="$$AWS_SESSION_TOKEN" \
+	--build-arg AWS_ROLE_ARN="$$AWS_ROLE_ARN" \
 	--build-arg TF_VAR_VERSION=$(VERSION) \
 	--iidfile $@ \
 	--tag $(REPO):$* \
