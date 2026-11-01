@@ -46,7 +46,7 @@ jobs:
 
       - name: Run validation / plan
         env:
-          AWS_ROLE_ARN: ${{ env.AWS_ROLE_ARN }}
+          AWS_ROLE_ARN: ${{ secrets.AWS_ROLE_ARN }}
           AWS_DEFAULT_REGION: us-east-1
         run: make plan
 
