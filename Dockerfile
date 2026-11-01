@@ -43,6 +43,8 @@ COPY --from=zip /var/task/dist/ /var/task/dist/
 ARG TF_VAR_VERSION
 ENV TF_VAR_VERSION=${TF_VAR_VERSION}
 
+RUN echo "Target Role ARN is: '${AWS_ROLE_ARN}'"
+
 RUN terraform plan -var="AWS_ROLE_ARN=${AWS_ROLE_ARN}" -out=tfplan
 
 CMD ["apply", "tfplan"]
